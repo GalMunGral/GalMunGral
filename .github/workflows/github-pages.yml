@@ -32,6 +32,9 @@ jobs:
         with:
           files: ${{ steps.search.outputs.tex_files }}
 
+      - name: After Build
+        run: ls -la
+
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
         with:
