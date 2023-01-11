@@ -37,7 +37,7 @@ jobs:
           shopt -s globstar
           mkdir dist
           for f in **/*.tex; do cp ${f%.tex}.pdf dist; done
-          echo '<meta http-equiv="Refresh" content="0; url='//galmungral.github.io/en-US.pdf'" />' > index.html
+          echo '<meta http-equiv="Refresh" content="0; url='//galmungral.github.io/en-US.pdf'" />' > dist/index.html
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
