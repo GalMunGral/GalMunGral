@@ -1,0 +1,40 @@
+name: GitHub Pages
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  build-and-deploy:
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    permissions:
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Search Tex Files
+        id: search
+        run: echo "tex_files='$(echo **/*.tex)'" >> $GITHUB_OUTPUT
+
+      - name: Build
+        uses: ./.actions/compile-xelatex/
+        with:
+          files: ${{ steps.search.outputs.tex_files }}
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: 'dist'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1

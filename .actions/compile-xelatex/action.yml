@@ -1,0 +1,11 @@
+name: 'Compile XeLaTex'
+description: 'Compile XeLaTex files into PDFs'
+inputs:
+  files:
+    description: '.tex files to compile'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.files }}
