@@ -33,7 +33,9 @@ jobs:
           files: ${{ steps.search.outputs.tex_files }}
 
       - name: After Build
-        run: ls -la
+        run: |
+          mkdir dist
+          for f in **/*.tex; do cp ${f%.tex}.pdf dist; done
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
