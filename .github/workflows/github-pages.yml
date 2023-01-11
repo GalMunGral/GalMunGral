@@ -25,7 +25,7 @@ jobs:
         id: search
         run: |
           shopt -s globstar
-          echo "tex_files='$(echo **/*.tex)'" >> $GITHUB_OUTPUT
+          echo "tex_files=$(echo **/*.tex)" >> $GITHUB_OUTPUT
 
       - name: Build
         uses: ./.actions/compile-xelatex/
