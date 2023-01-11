@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd /github/workspace/
-ll
+ls -la
 
 for f in $*; do
   xelatex $f
