@@ -34,8 +34,8 @@ jobs:
 
       - name: After Build
         run: |
+          shopt -s globstar
           mkdir dist
-          echo **/*.tex
           for f in **/*.tex; do
             cp ${f%.tex}.pdf dist
           done
