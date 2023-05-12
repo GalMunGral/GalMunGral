@@ -1,4 +1,5 @@
 *.pdf
+!academic/*.pdf
 *.aux
 *.log
 *.synctex.gz
