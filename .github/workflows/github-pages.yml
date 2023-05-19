@@ -27,11 +27,6 @@ jobs:
           shopt -s globstar
           echo "tex_files=$(echo **/*.tex)" >> $GITHUB_OUTPUT
 
-      - name: Install Fonts
-        run: |
-          sudo apt-get update -y
-          sudo apt-get install -y fonts-linuxlibertine
-
       - name: Build
         uses: ./.actions/compile-xelatex/
         with:
