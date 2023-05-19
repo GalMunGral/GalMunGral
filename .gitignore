@@ -2,6 +2,7 @@
 !academic/*.pdf
 *.aux
 *.log
+*.out
 *.synctex.gz
 *.swp
 .DS_Store

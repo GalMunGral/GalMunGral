@@ -1,11 +1,16 @@
-\documentclass[10pt]{article}
+\documentclass[12pt]{article}
 \usepackage[margin=4em]{geometry}
 \usepackage{titlesec}
 \usepackage{enumitem}
+\usepackage{hyperref}
 \usepackage{blindtext}
+\usepackage{libertine}
+\setmonofont{inconsolata}
+
 %\usepackage[T1]{fontenc}
 %\usepackage{fontspec}
-\usepackage{xcolor}
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0.5em,parsep=2pt,partopsep=0pt}
 
 %\titleformat{\section}{\vspace{1em}}{\thesection.}{0.5em}{\vspace{0pt}}[{\titlerule[0.1pt]}]
 %\titleformat{\subsection}{\it}{\thesubsection.}{0.5em}{\vspace{-0.5em}}[]
@@ -15,89 +20,62 @@
 %\setmainfont{CMU Concrete}
 
 \begin{document}
-{\Huge\sc Wenqi He} \hfill (+1)470-343-5207, hewenqi96@gmail.com
+{\Huge Wenqi He} \quad \texttt{github.com/galmungral}
 
-\hfill github.com/galmungral
-
-\section*{EXPERIENCE}
-\textbf{National Center for Supercomputing Applications}, Urbana, IL, US
-
-\textit{Graduate Research Assistant @ Visual Analytics} \hfill 2022/08 -- Present
-
-\begin{itemize}[itemsep=0pt, topsep=4pt, label=-]
-\item Responsible for the development and deployment of BiteMap, a web app for crowdsourcing tick/mosquito reports.
-\item Participated in the maintenance and development of PhyloDiver, a web app for phylogeny visualization.
-\item Used OpenLayers, Next.js, Angular, PostgreSQL, Docker, GitHub Actions, Cypress.
-\end{itemize}
-
-\vspace{0.5em}
-\textbf{Gllue Software}, Shanghai, China
-
-\textit{Front-end Software Engineer}  \hfill 2020/11 -- 2022/03
-
-\begin{itemize}[itemsep=0pt, topsep=4pt, label=-]
-\item Participated in the maintenance of the Applicant Tracking System software and the UI builder that powers it.
-\item Responsible for building multiple web applications and WeChat mini-programs with integrated SSO.
-\item Published a canvas-based UI framework, a form engine and a secure stream player on private npm registry.
-\item Used ECharts, React, RxJS, Redux, Rollup, webpack, Vite, Lerna, Jest, Husky, GitLab CI, Puppeteer.
+\section*{Experience}
+\textbf{National Center for Supercomputing Applications}, Urbana, IL, US\\
+\textit{\textit{Graduate Research Assistant / Research Software Engineer}, Visual Analytics Group \hfill Aug. 2022 -- Present}
+\begin{itemize}
+\item Developed software for researchers, focusing on visualization of biomedical and geospatial data.
+\item Created interactive cartographic visualizations using OpenLayers, GeoJSON and PostgreSQL.
+\item Maintained PhyloDiver, an interactive visualization tool for cancer phylogenies.
 \end{itemize}
 \vspace{0.5em}
-\textbf{Étude LLC}, Atlanta, GA, US
-
-\textit{Software Engineer} \hfill 2019/09 -- 2020/03
-
-\begin{itemize}[itemsep=0pt, topsep=4pt, label=-]
-\item Participated in the development of an NLP-powered PDF reader (Electron desktop application).
-\item Implemented text-related features such as table-of-contents parsing, fuzzy searching and text highlighting.
+\textbf{Gllue Software}, Shanghai, China\\
+\textit{Front-end Software Engineer, Applicant Tracking System (ATS) \hfill Nov. 2020 -- Nov. 2021}
+\begin{itemize}
+\item Responsible for multiple single-page applications, WeChat mini-programs and internal libraries.
+\item Participated in the maintenance of the user interface builder that powers the ATS system.
+\item Responsible for the protocol design and front-end integration of a revamped Single Sign-On system.
+%a canvas-based UI framework, and a secure stream player
+\end{itemize}
+\vspace{0.5em}
+\textbf{Étude LLC}, Atlanta, GA, US\\
+\textit{Front-end Software Engineer, Founding Team \hfill Aug. 2019 -- Aug. 2020}
+\begin{itemize}
+\item Participated in the development of Étude reader, an NLP-powered PDF reader.
 \end{itemize}
 
-\section*{EDUCATION}
-\textbf{University of Illinois Urbana-Champaign}, Urbana–Champaign, IL, US  \hfill 2022/08 - Present
-
-\textit{Master of Computer Science}  \hfill GPA: 4.00
-
-\vspace{0.5em}
-Advanced Information Retrieval, Distributed Algorithms, Compiler Construction, Programming Languages \& Compilers, Natural Language Processing, Interactive Computer Graphics, Computational Photography
+\section*{Education}
+\textbf{University of Illinois Urbana-Champaign}, Urbana–Champaign, IL, US \hfill \textit{Aug. 2022 - Dec. 2023} \\
+\textit{Master of Computer Science}  \hfill GPA: 4.0/4.0 
+\begin{itemize}
+\item Programming Language Design / Formal Semantics (K Framework), Compiler Construction (LLVM)
+\item Scientific Visualization, Interactive Computer Graphics (WebGL), Computational Photography
+\item Natural Language Processing, Information Retrieval, Distributed Algorithms, Distributed Systems
+\end{itemize}
 
 \vspace{1em}
-\textbf{Georgia Institute of Technology}, Atlanta, GA, US \hfill 2015/08 - 2019/12
+\textbf{Georgia Institute of Technology}, Atlanta, GA, US \hfill \textit{Aug. 2015 - Dec. 2019}\\
+\textit{Bachelor of Science in Computer Science, Minor in Physics} \hfill GPA: 3.97/4.0; \textit{summa cum laude}\\
+\textit{Concentration: Modeling-Simulation and Information Internetworks} \hfill Major GPA: 4.0/4.0
+\begin{itemize}
+\item General Relativity, Differential Geometry, Differential Equations, Numerical Analysis, Simulation
+\end{itemize}
 
-\textit{Bachelor of Science in Computer Science, Minor in Physics} \hfill GPA: 3.97 (major: 4.00, minor: 3.80)
+\section*{Personal Projects}
 
-\vspace{0.5em}
-Computer Systems \& Networks, Computer Organization, Data Structures \& Algorithms, Design \& Analysis of Algorithms, Computer Networking, Intro to Database Systems, Intro to Information Security, Computer Simulation, Numerical Analysis
+\href{https://github.com/galmungral/particle-simulation}{\textit{simulation of particle collisions} (WebGL, Rust, WebAssembly)},
+\href{https://github.com/galmungral/rasterizer}{\textit{rasterizer} (C++, Emscripten, WebAssembly)},
+\href{https://github.com/galmungral/michelangelo}{\textit{layout algorithms for canvas-based user interface} (TypeScript)},
+\href{https://github.com/galmungral/react-teletype}{\textit{remote React renderer} (TypeScript)},
+\href{https://github.com/galmungral/replay}{\textit{front-end framework and bundler built from scratch} (TypeScript)},
+\href{https://github.com/galmungral/hanbun-lang}{\textit{an esoteric programming language based on Classical Chinese} (PureScript)},
+\href{https://github.com/galmungral/sketchpad}{\textit{a toy compiler for a hypothetical architecture} (TypeScript)},
+\href{https://github.com/galmungral/turing-machine}{\textit{simulation of the Universal Turing Machine} (Haskell, Common Lisp)},
+\href{https://github.com/galmungral/telescope}{\textit{split SOCKS proxy} (C, libuv)}, 
+\href{https://github.com/galmungral/plato}{\textit{a toy search engine} (Python)},
+\href{https://github.com/galmungral/json-crdt}{\textit{conflict-free replicated JSON} (TypeScript)}
 
-
-\section*{PROJECTS}
-
-\vspace{0.5em}
-\texttt{/plato}: \textit{a search engine for Stanford Encyclopedia of Philosophy} \hfill (Python) 2023/09
-
-\vspace{0.5em}
-\texttt{/particle-simulation}: \textit{a simple particle collision simulation} \hfill (Rust, WebAssembly, WebGL)  2022/11
-
-\vspace{0.5em}
-\texttt{/rasterizer}: \textit{a simple software renderer} \hfill (C++, WebAssembly, Emscripten) 2022/09
-
-\vspace{0.5em}
-\texttt{/turing-machine}: \textit{a simulation of universal Turing machine} \hfill (Haskell, Common Lisp) 2021/12
-
-\vspace{0.5em}
-\texttt{/telescope}: \textit{a libuv-based split SOCKS proxy} \hfill (C, Python)  2021/04
-
-\vspace{0.5em}
-\texttt{/hanbun-lang}: \textit{a programming language inspired by Classical Chinese} \hfill (PureScript) 2021/05
-
-\vspace{0.5em}
-\texttt{/sketchpad}: \textit{a toy compiler for a hypothetical architecture} \hfill (TypeScript) 2022/04
-
-\vspace{0.5em}
-\texttt{/michelangelo}: \textit{a simple canvas-based UI framework} \hfill (TypeScript)  2022/05
-
-\vspace{0.5em}
-\texttt{/react-teletype}: \textit{an interactive server-side React renderer} \hfill (TypeScript) 2021/05
-
-\vspace{0.5em}
-\texttt{/replay}: \textit{a modern front-end framework and a bundler} \hfill (TypeScript) 2020/05
 
 \end{document}
