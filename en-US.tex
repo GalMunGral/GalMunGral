@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[12pt]{article}
 \usepackage[margin=4em]{geometry}
 \usepackage{titlesec}
 \usepackage{enumitem}
@@ -10,7 +10,10 @@
 %\usepackage[T1]{fontenc}
 %\usepackage{fontspec}
 \usepackage{enumitem}
-\setitemize{noitemsep,topsep=0.5em,parsep=2pt,partopsep=0pt}
+\setitemize{noitemsep,topsep=6pt,parsep=1pt,partopsep=0pt}
+
+\usepackage{titlesec}
+\titlespacing{\section}{0pt}{10pt}{1em}
 
 %\titleformat{\section}{\vspace{1em}}{\thesection.}{0.5em}{\vspace{0pt}}[{\titlerule[0.1pt]}]
 %\titleformat{\subsection}{\it}{\thesubsection.}{0.5em}{\vspace{-0.5em}}[]
@@ -23,44 +26,45 @@
 {\Huge Wenqi He} \quad \texttt{github.com/galmungral}
 
 \section*{Experience}
+
 \textbf{National Center for Supercomputing Applications}, Urbana, IL, US\\
 \textit{Graduate Research Assistant (Research Software Engineering), Visual Analytics Group \hfill Aug. 2022 - Present}
 \begin{itemize}
-\item Developed software for researchers, focusing on visualization of biomedical and geospatial data.
-\item Created interactive cartographic visualizations using GeoJSON, OpenLayers, Next.js, and PostgreSQL.
-\item Participated in the maintenance of PhyloDiver, an interactive visualization tool for tumor phylogenies.
+\item Developed software for researchers, focusing on biomedical and geospatial data visualization.
+\item Created interactive cartographic visualizations using OpenLayers and GeoJSON.
+\item Participated in the maintenance of PhyloDiver, a visualization tool for tumor phylogenies.
 \end{itemize}
-\vspace{0.5em}
+
 \textbf{Gllue Software}, Shanghai, China\\
 \textit{Front-end Software Engineer, Applicant Tracking System (ATS) \hfill Nov. 2020 - Nov. 2021}
 \begin{itemize}
-\item Collaborated with multiple teams to build single-page applications, WeChat mini-programs and libraries.
-\item Participated in the maintenance of the user interface builder that powers the customizable ATS system.
+\item Collaborated with multiple teams to build web applications, WeChat mini-programs and libraries.
+\item Participated in the maintenance of the user interface builder that powers the customizable ATS.
 \item Responsible for the front-end integration of a revamped Single Sign-On system for multiple products.
-%a canvas-based UI framework, and a secure stream player
 \end{itemize}
-\vspace{0.5em}
+
 \textbf{Étude LLC}, Atlanta, GA, US\\
 \textit{Software Engineer, Founding Team \hfill Aug. 2019 - Aug. 2020}
 \begin{itemize}
-\item Developed several main features, including a table of contents parser, for the NLP-powered PDF reader.
+\item Developed several main features of the NLP-powered PDF reader, including a table of contents parser.
 \end{itemize}
 
 \section*{Education}
-\textbf{University of Illinois Urbana-Champaign}, Urbana–Champaign, IL, US \hfill \textit{Aug. 2022 - Dec. 2023 (expected)} \\
+\textbf{University of Illinois Urbana-Champaign}, Urbana–Champaign, IL, US \hfill \textit{Aug. 2022 - Present} \\
 \textit{Master of Computer Science}  \hfill GPA: 4.0/4.0 
 \begin{itemize}
+\small
 \item Formal Semantics / Programming Language Design (K Framework), Compiler Construction (LLVM)
 \item Scientific Visualization, Interactive Computer Graphics (WebGL), Computational Photography
-\item Distributed Algorithms / Systems, Information Retrieval, Natural Language Processing (PyTorch)
+\item Distributed Algorithms/Systems, Information Retrieval, Natural Language Processing (PyTorch)
 \end{itemize}
 
-\vspace{1em}
 \textbf{Georgia Institute of Technology}, Atlanta, GA, US \hfill \textit{Aug. 2015 - Dec. 2019}\\
 \textit{Bachelor of Science in Computer Science, Minor in Physics, \textit{summa cum laude}} \hfill GPA: 3.97/4.0\\
 \textit{Concentration: Modeling-Simulation and Information Internetworks} \hfill Major GPA: 4.0/4.0
 \begin{itemize}
-\item Differential Geometry, Partial Differential Equations, Numerical Analysis, Computer Simulation
+\small
+\item Differential Geometry, Partial/Ordinary Differential Equations, Numerical Analysis, Computer Simulation
 \end{itemize}
 
 \section*{Personal Projects}
@@ -68,12 +72,12 @@
 \href{https://github.com/galmungral/rasterizer}{\textit{A Basic Software Rasterizer for Browsers}} \hfill (C++, Emscripten, WebAssembly) \\
 \href{https://github.com/galmungral/michelangelo}{\textit{Layout Algorithms for Canvas-based User Interface}} \hfill (TypeScript) \\
 \href{https://github.com/galmungral/telescope}{\textit{A Split SOCKS Proxy for Internet Censorship Circumvention}} \hfill (C, libuv) \\
-\href{https://github.com/galmungral/react-teletype}{\textit{An Interactive Remote React Renderer}} \hfill (TypeScript) \\
+\href{https://github.com/galmungral/react-teletype}{\textit{An Interactive Server-side React Renderer}} \hfill (TypeScript) \\
 \href{https://github.com/galmungral/replay}{\textit{A Front-end Framework and a Module Bundler Built from Scratch}} \hfill (TypeScript) \\
 \href{https://github.com/galmungral/hanbun-lang}{\textit{An Esoteric Programming Language Based on Classical Chinese}} \hfill (PureScript) \\
 \href{https://github.com/galmungral/sketchpad}{\textit{A Toy Compiler for a Hypothetical Architecture}} \hfill (TypeScript) \\
 \href{https://github.com/galmungral/plato}{\textit{A Toy Search Engine Based on the Query Likelihood Model}} \hfill (Python) \\
 \href{https://github.com/galmungral/json-crdt}{\textit{A Practical Implementation of Conflict-free Replicated JSON}} \hfill (TypeScript) \\
-\href{https://github.com/galmungral/turing-machine}{\textit{A Simulation of the Universal Turing Machine}} \hfill (Haskell, Common Lisp) \\
+\href{https://github.com/galmungral/turing-machine}{\textit{A Simulation of the Universal Turing Machine}} \hfill (Haskell, Common Lisp)
 
 \end{document}
