@@ -1,96 +1,85 @@
-\documentclass[10pt]{article}
-\usepackage{xeCJK}
+\documentclass[12pt]{article}
 \usepackage[margin=4em]{geometry}
 \usepackage{titlesec}
 \usepackage{enumitem}
+\usepackage{hyperref}
 \usepackage{blindtext}
-\usepackage[T1]{fontenc}
+\usepackage{libertine}
+\setmonofont{inconsolata}
+\usepackage{xeCJK}
 
-\titleformat{\section}{}{\thesection}{0pt}{\vspace{0pt}}[{\titlerule[0.1pt]}]
-\setlist[itemize]{leftmargin=2em, topsep=0.5em, itemsep=0pt, label=$\lambda$}
+%\usepackage[T1]{fontenc}
+%\usepackage{fontspec}
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=6pt,parsep=1pt,partopsep=0pt}
+
+\usepackage{titlesec}
+\titlespacing{\section}{0pt}{10pt}{1em}
+
+%\titleformat{\section}{\vspace{1em}}{\thesection.}{0.5em}{\vspace{0pt}}[{\titlerule[0.1pt]}]
+%\titleformat{\subsection}{\it}{\thesubsection.}{0.5em}{\vspace{-0.5em}}[]
 \setlength\parindent{0pt}
 \pagestyle{empty}
 
+%\setmainfont{CMU Concrete}
+
 \begin{document}
+{\Huge Wenqi He} \quad \texttt{github.com/galmungral}
 
-{\bf\huge 何文琦} \hfill 136-2602-2079 | hewenqi96@gmail.com
+\section*{Experience}
 
-\section*{工作经历}
-\textbf{前端工程师, 谷露软件 (Gllue Software), Shanghai} \hfill 2020/11 -- 2021/11
+\textbf{美国国家超级计算机应用中心}, Urbana, IL, US\\
+\textit{研究生科研助理 (科研软件开发), 可视化分析组, 视觉部门} \hfill Aug. 2022 - Present
 \begin{itemize}
-\item 负责web前端和微信小程序多个主要模块的开发, 参与页面可视化编辑器的维护. 主要使用 TypeScript 和 React.
-\item 参与前端基础建设: 开发了轻量级表单引擎和图片生成服务, 负责谷露一帐通用户系统/身份认证中心的前端部分.
-\item {\small 使用了 Redux Saga, SWR, ECharts, Ant Design, Linaria, Sass/LESS, Tailwind, Vite/webpack/Rollup/Parcel, GitLab, ArgoCD.}
+\item Developed software for researchers, focusing on biomedical and geospatial data visualization.
+\item Created interactive cartographic visualizations using OpenLayers and GeoJSON.
+\item Participated in the maintenance of PhyloDiver, a visualization tool for tumor phylogenies.
 \end{itemize}
 
-\vspace{0.5em}
-\textbf{前端 (Electron) 工程师, Étude (\texttt{etudereader.com}), Atlanta} \hfill 2019/09 -- 2020/03
+\textbf{谷露软件}, Shanghai, China\\
+\textit{前端工程师, ATS (申请人追踪系统)} \hfill Nov. 2020 - Nov. 2021
 \begin{itemize}
-\item 参与 PDF 阅读器的开发, 实现了从原始文本解析目录、 划词高亮等功能.
+\item Collaborated with multiple teams to build web applications, WeChat mini-programs and libraries.
+\item Participated in the maintenance of the user interface builder that powers the customizable ATS.
+\item Responsible for the front-end integration of a revamped Single Sign-On system for multiple products.
 \end{itemize}
 
-\vspace{0.5em}
-\textbf{前端开发实习生, Georgia Institute of Technology, Atlanta} \hfill 2019/08 -- 2019/12
+\textbf{Étude LLC}, Atlanta, GA, US\\
+\textit{软件工程师, 创始团队} \hfill Aug. 2019 - Aug. 2020
 \begin{itemize}
-\item 参与并主导了期中调查问卷系统自定义表单功能的开发, 集成了学校 CAS 单点登录系统和 Canvas LMS API.
-\item 主要使用 MongoDB, ajv, TypeScript, Angular, Express,  Node.js, Puppeteer.
+\item Developed several main features of the NLP-powered PDF reader, including a table of contents parser.
 \end{itemize}
 
-\vspace{0.5em}
-\textbf{前端实习生, PegasusCRM, Atlanta} \hfill 2018/01 -- 2018/04
+\section*{Education}
+\textbf{University of Illinois Urbana-Champaign}, Urbana–Champaign, IL, US \hfill Aug. 2022 - Dec. 2023 \\
+\textit{计算机科学硕士 (MCS)}  \hfill GPA: 4.0/4.0 
 \begin{itemize}
-\item 主要使用 Laravel PHP, Vue, jQuery, Sass/LESS, Puppeteer.
+\small
+\item 形式语义学/编程语言设计 (K Framework), 编译器构建 (LLVM)
+\item 交互式/实时计算机图形学 (WebGL), 科学可视化, 计算摄影学
 \end{itemize}
 
-
-\section*{教育经历}
-\textbf{计算机科学理学学士 (BSCS), Georgia Institute of Technology, Atlanta} \hfill 2015/08 -- 2019/12
+\textbf{Georgia Institute of Technology}, Atlanta, GA, US \hfill Aug. 2015 - Dec. 2019\\
+\textit{计算机科学理学学士 (BSCS, \textit{summa cum laude})} \hfill GPA: 3.97/4.0\\
+\textit{专修: 建模仿真与网际互联, 辅修: 物理学} \hfill 专业 GPA: 4.0/4.0
 \begin{itemize}
-\item  专业GPA: 4.0/4.0, 综合 GPA: 3.97/4.0 (辅修物理学)
-\end{itemize} 
-
-\section*{\texttt{\large HOME=//github.com/GalMunGral; DEMO=//GalMunGral.github.io}}
-
-\textbf{\texttt{/layouter}: (TypeScript) 简易布局系统与底层 UI 框架}   \hfill 2022/04
-\begin{itemize}
-\item 独立于 DOM/CSSOM 的 UI 系统, 在 canvas 上实现滚动与弹性视图的重排重绘.
+\small
+\item 经典微分几何, 偏/常微分方程, 数值分析, 计算机模拟, 广义相对论
 \end{itemize}
 
-\vspace{0.5em}
-\textbf{\texttt{/react-teletype}:  (TypeScript) 服务端运行的 React 渲染器} \hfill 2021/05 
-\begin{itemize}
-\item  在后端运行React应用并通过 WebSocket 同步DOM状态.
-\end{itemize}
-
-\vspace{0.5em}
-\textbf{\texttt{/replay}: (TypeScript, JavaScript)  自研前端框架和构建工具 } \hfill 2020/05 -- 2020/06
-\begin{itemize}
-\item 实现了原地 diff 算法, 非阻塞渲染, hydration, 依赖收集. 通过Babel 插件实现了基于 JS 语法的 DSL.
-\item 实现了ESM模式的 dev server (支持构建缓存和自动刷新) 和webpack式打包 (支持代码分割和动态导入).
-\end{itemize}
-
-\vspace{0.5em}
-\textbf{\texttt{/telescope}:  (C) 反审查工具, 基于 SOCKS 协议的分离式代理}   \hfill 2021/04
-
-\vspace{0.5em}
-\textbf{\texttt{/hanbun-lang}: (PureScript) 基于文言文, 面向堆栈, 面向对象的解释型编程语言}  \hfill 2021/05
-
-\vspace{0.5em}
-\textbf{\texttt{/sketchpad}: (JavaScript) 虚拟指令集与简易的高级语言编译器}  \hfill 2022/05
-
-\vspace{0.5em}
-\textbf{\texttt{/turing-machine}:  (Haskell, Common Lisp) 代码实现图灵1936年论文中对通用机的描述} \hfill 2021/12
-
-\vspace{2em}
-\textbf{更多代码见 \texttt{/bagatelles}}
-\begin{itemize}
-\item \texttt{/layout-sandbox:} \textit{WYSIWYG 拖拽式布局编排工具}
-\item \texttt{/colosseum}:  \textit{HTML5 加密流媒体 (防盗链) 球形视频播放器 (WebGL)}
-\item \texttt{/web-repl:} \textit{网页端 Python REPL 与简易聊天室}
-\item \texttt{/*-webpack-plugin:} \textit{按需生成原子化CSS, 检测无用文件, 分析模块间耦合}
-\item \texttt{/sitbit:} \textit{移动端久坐时间监控}
-\item ...
-\end{itemize}
-
+\section*{Personal Projects}
+\href{https://galmungral.github.io/mercator}{\textit{简易栅格地图瓦片渲染器}} \hfill (TypeScript) \\
+\href{https://galmungral.github.io/particle-simulation}{\textit{简易粒子碰撞模拟/可视化}} 
+\hfill (WebGL, Rust, WebAssembly) \\
+\href{https://galmungral.github.io/terrain-generator}{\textit{简易3D地形生成器}} \hfill (WebGL, Rust, WebAssembly) \\
+\href{https://galmungral.github.io/rasterizer?file=billboard.txt}{\textit{简易3D软件栅格化器}} \hfill (C++, Emscripten, WebAssembly) \\
+\href{https://galmungral.github.io/text2svg}{\textit{简易OpenType/TrueType字体渲染器}} \hfill (TypeScript) \\
+\href{https://galmungral.github.io/michelangelo}{\textit{基于Canvas的简易 UI 框架/布局系统}} \hfill (TypeScript) \\
+\href{https://github.com/galmungral/react-teletype}{\textit{服务端交互式 React 渲染器}} \hfill (TypeScript) \\
+\href{https://github.com/galmungral/replay}{\textit{简易前端框架与模块打包器}} \hfill (TypeScript) \\
+\href{https://galmungral.github.io/hanbun-lang}{\textit{基于文言的深奥(esoteric)编程语言}} \hfill (PureScript) \\
+\href{https://github.com/galmungral/json-crdt}{\textit{JSON式无冲突复制数据类型(CRDT)的一种实用性实现}} \hfill (TypeScript) \\
+\href{https://github.com/galmungral/telescope}{\textit{用以规避互联网审查的分离式SOCKS代理}} \hfill (C, libuv) \\
+\href{https://github.com/galmungral/plato}{\textit{基于查询似然模型的简易搜索引擎}} \hfill (Python) \\
+\href{https://github.com/galmungral/turing-machine}{\textit{通用图灵机的模拟}} \hfill (Haskell, Common Lisp)
 \end{document}
-
