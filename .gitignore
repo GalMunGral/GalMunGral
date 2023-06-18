@@ -1,5 +1,3 @@
-*.pdf
-!academic/*.pdf
 *.aux
 *.log
 *.out
