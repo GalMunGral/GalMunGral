@@ -26,10 +26,10 @@ jobs:
           shopt -s globstar
           echo "tex_files=$(echo **/*.tex)" >> $GITHUB_OUTPUT
 
-      - name: Build
-        uses: ./.actions/compile-xelatex/
-        with:
-          files: ${{ steps.search.outputs.tex_files }}
+      # - name: Build
+      #   uses: ./.actions/compile-xelatex/
+      #   with:
+      #     files: ${{ steps.search.outputs.tex_files }}
 
       - name: After Build
         run: |
