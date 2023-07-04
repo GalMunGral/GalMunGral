@@ -1,5 +1,8 @@
-\documentclass[12pt]{article}
+\documentclass[11pt,twocolumn]{article}
+\setlength\columnsep{0pt}
+
 \usepackage[margin=4em]{geometry}
+
 \setlength\parindent{0pt}
 \pagestyle{empty}
 
@@ -8,52 +11,96 @@
 
 
 \usepackage{enumitem}
-\setitemize{noitemsep,topsep=1em,parsep=1pt,partopsep=0pt}
+\setitemize{itemsep=0pt,topsep=1em,parsep=1pt,partopsep=0pt,leftmargin=2em}
 
 \usepackage{titlesec}
 \usepackage{fontspec}
 \newfontfamily\cjkfont{Songti TC}
 
-\titlespacing{\section}{0pt}{1em}{1em}
+\titlespacing{\section}{-1em}{1em}{1em}
+\titlespacing{\subsection}{-1em}{0.5em}{0.5em}
 
 \usepackage{hyperref}
 
 \newcommand{\comment}[1]{}
 
+
 \begin{document}
 
-{\Huge\bf Wenqi He} {\Large\bf\cjkfont (何文琦)}
+{\Huge\bf Wenqi He}
+
+\vspace{10pt}
+\href{https://linkedin.com/in/galmungral}{\texttt{linkedin.com/in/galmungral}}
+
+\href{https://github.com/galmungral}{\texttt{github.com/galmungral}}
+
+\href{mailto:hewenqi96@gmail.com}{\texttt{hewenqi96@gmail.com}}
+
+\section*{\textsf{Education}}
+\textbf{University of Illinois Urbana-Champaign}\\
+\textit{Master of Computer Science}\\
+Dec. 2023 (Expected)
 
 \vspace{1em}
-\href{mailto:hewenqi96@gmail.com}{\texttt{hewenqi96@gmail.com}} \quad|\quad \href{https://linkedin.com/in/galmungral}{\texttt{linkedin.com/in/galmungral}} \quad|\quad \href{https://github.com/galmungral}{\texttt{github.com/galmungral}}
+\textbf{Georgia Institute of Technology}\\
+\textit{B.S. in Computer Science, summa cum laude}\\
+\textit{Minor in Physics}\\
+Dec. 2019
 
-\vspace{1em}
-\textit{Give me a framebuffer, and I shall make any UI imaginable.}
+\section*{\textsf{Personal Projects}}
+
+\href{https://github.com/galmungral/polyrender}{A GPU-accelerated 2D vector graphics renderer}\\
+\href{https://github.com/galmungral/mercator}{A raster map tile renderer}\\
+\href{https://github.com/galmungral/hanbun-lang}{A stack-oriented esoteric programming language} \\
+\href{https://github.com/galmungral/michelangelo}{A canvas-based UI framework}\\
+\href{https://github.com/galmungral/react-teletype}{A server-side interactive React renderer} \\
+\href{https://github.com/galmungral/replay}{A front-end framework and a module bundler}
+
+\section*{\textsf{Coursework}}
+
+\subsection*{{Graphics \& Physics}}
+Interactive Computer Graphics\\
+Scientific Visualization\\
+Computational Photography\\
+Parallel Programming\\
+Quantum Mechanics\\
+General Relativity (Graduate-level)\\
+Differential Geometry\\
+Partial Differential Equations\\
+Ordinary Differential Equations\\
+Numerical Analysis\\
+Computer Simulation
+
+\subsection*{{Language \& Communication}}
+
+Optimizing Compiler Construction\\
+Programming Languages\\
+Natural Language Processing\\
+Information Retrieval\\
+Distributed Algorithms\\
+Distributed Systems\\
+Computer Networking\\
+Database Systems\\
+Information Security
+
+\newpage
+
+\section*{\textsf{Experience}}
+
+\textbf{National Center for Supercomputing Applications} \\
+\textit{Graduate Research Assistant, Visual Analytics} \\
+Aug. 2022 - Present / Urbana, IL, US
 
 \begin{itemize}
-\item \href{https://galmungral.github.io/polyrender}{A GPU-accelerated 2D vector graphics renderer (TypeScript, WebGL) \hfill \texttt{/polyrender}}
-\item \href{https://galmungral.github.io/mercator?lon=-73.9855&lat=40.7580}{A basic raster map tile renderer (TypeScript) \hfill \texttt{/mercator}}
-\item \href{https://galmungral.github.io/hanbun-lang}{A stack-oriented esoteric programming language (PureScript) \hfill \texttt{/hanbun-lang}}
-\item \href{https://galmungral.github.io/michelangelo}{A basic canvas-based UI framework (TypeScript) \hfill \texttt{/michelangelo}}
-\item\href{https://github.com/galmungral/react-teletype}{A server-side interactive React renderer (TypeScript) \hfill \texttt{/react-teletype}}
-\item \href{https://github.com/galmungral/replay}{A VDOM-based front-end framework with a module bundler (TypeScript) \hfill \texttt{/replay}}
-\end{itemize}
-
-\section*{Experience}
-
-\textbf{National Center for Supercomputing Applications}, Urbana, IL, US
-
-\textit{Graduate Research Assistant, Visual Analytics} \hfill 08/2022 - Present
-
-\begin{itemize}
-\item Developed software for researchers, focusing on biomedical and geospatial data visualization.
+\item Developed software for scientific researchers, with a focus on biomedical and geospatial data visualization.
+\item Responsible for the development and deployment of the BiteMap project.
 \item Created interactive cartographic visualizations using OpenLayers and GeoJSON.
 \item Participated in the maintenance of PhyloDiver, a visualization tool for tumor phylogenies.
 \end{itemize}
 
-\textbf{Gllue Software}, Shanghai, China
-
-\textit{Front-end Software Engineer, Applicant Tracking System (ATS)} \hfill 11/2020 - 11/2021
+\textbf{Gllue Software}\\
+\textit{Front-end Engineer, Applicant Tracking System}\\
+Nov. 2020 - Nov. 2021 / Shanghai, China
 
 \begin{itemize}
 \item Collaborated with multiple teams to build web applications, WeChat mini-programs and libraries.
@@ -61,36 +108,21 @@
 \item Responsible for the front-end integration of a new Single Sign-On system for multiple products.
 \end{itemize}
 
-\textbf{Étude LLC}, Atlanta, GA, US
+\textbf{Étude LLC}
 
-\textit{Software Engineer, Founding Team} \hfill 08/2019 - 08/2020
+\textit{Software Engineer, Founding Team}\\
+Aug. 2019 - Aug. 2020 / Atlanta, GA, US
 
 \begin{itemize}
 \item Developed several features of an NLP-powered PDF reader, including a table of contents parser.
 \end{itemize}
 
-\section*{Education}
-
-\textbf{University of Illinois Urbana-Champaign}, Urbana–Champaign, IL, US \hfill 08/2022 - 12/2023 
-
-\textit{Master of Computer Science}  \hfill GPA: 4.0/4.0 
-{\small
-\begin{itemize}
-\item Compiler Construction (LLVM), Programming Languages and Compilers (OCaml)
-\item Interactive Computer Graphics (WebGL), Scientific Visualization, Computational Photography
-\item Distributed Systems/Algorithms, Information Retrieval, Natural Language Processing
-\end{itemize}
-}
-
-
-\vspace{1em}
-\textbf{Georgia Institute of Technology}, Atlanta, GA, US \hfill 08/2015 - 12/2019
-
-\textit{Bachelor of Science in Computer Science, Minor in Physics} \hfill GPA: 3.97/4.0
-{\small
-\begin{itemize}
-\item Differential Geometry, Differential Equations, Numerical Analysis, Computer Simulation
-\end{itemize}
-}
+\section*{\textsf{Skills}}
+\subsection*{Languages}
+C, C++, Java, TypeScript, JavaScript, WebGL, HTML, SVG, CSS, Sass, LESS, PHP, Python, MATLAB, Mathematica, Haskell, PureScript, OCaml, Swift, Rust, Go, WebAssembly
+\subsection*{Frameworks \& Libraries}
+React, Angular, Node.js, Next.js, Electron, RxJS, Redux, MobX, ECharts, NumPy, SciPy, Matplotlib, PyTorch, OpenCV, PyVista, SwiftUI, UIKit, AppKit, Core Graphics
+\subsection*{Tools}
+Visual Studio Code, Vim, Git, Make, LLVM, Emscripten, esbuild, Babel, Tailwind CSS, Rollup, webpack, Parcel, Vite, Jest, Cypress, ESLint, Prettier, TypeDoc, GitHub Actions, GitLab CI, Docker, watchtower
 
 \end{document}
