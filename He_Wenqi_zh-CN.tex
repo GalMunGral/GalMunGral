@@ -1,53 +1,136 @@
-\documentclass[11pt]{article}
+\documentclass[11pt,twocolumn]{article}
+\setlength\columnsep{0pt}
+
 \usepackage[margin=4em]{geometry}
+
 \setlength\parindent{0pt}
 \pagestyle{empty}
 
 \usepackage{libertine}
 \setmonofont{inconsolata}
 
+
 \usepackage{enumitem}
-\setitemize{noitemsep,topsep=1em,parsep=1pt,partopsep=0pt}
+\setitemize{itemsep=0.2em,topsep=1em,parsep=1pt,partopsep=0pt,leftmargin=2em}
 
 \usepackage{titlesec}
-\titlespacing{\section}{0pt}{10pt}{1em}
+\usepackage{fontspec}
+\newfontfamily\cjkitalic{STFangsong}
+\newfontfamily\cjkbold{STSongti-SC-Black}
+\newfontfamily\cjkmain{STKaitiSC-Regular}
+
+
+\titlespacing{\section}{-1em}{1em}{0.5em}
+\titlespacing{\subsection}{-0.5em}{0.5em}{0.2em}
 
 \usepackage{hyperref}
-
 \usepackage{xeCJK}
+% \setCJKmainfont{SongTi TC}
+\setCJKmainfont[BoldFont=STSongti-SC-Black, ItalicFont=STFangsong]{STKaitiSC-Regular}
+
+
+\newcommand{\comment}[1]{}
+
 
 \begin{document}
+
+{\Huge\bf 何文琦}
+
+\vspace{10pt}
+\href{mailto:hewenqi96@gmail.com}{\texttt{hewenqi96@gmail.com}}\\
+\href{https://linkedin.com/in/galmungral}{\texttt{linkedin.com/in/galmungral}}\\
+\href{https://github.com/galmungral}{\texttt{github.com/galmungral}}
+
+
+\section*{\textnormal{EDUCATION}}
+
+\subsection*{University of Illinois Urbana-Champaign}
+\textit{计算机科学硕士}\\
+Dec. 2023 \textbullet\ Urbana, IL, US
+
+\subsection*{Georgia Institute of Technology}
+\textit{计算机科学理学学士, 辅修物理学}\\
+Dec. 2019 \textbullet\ Atlanta, GA, US
+
+\section*{\textnormal{PROJECTS}}
+\href{https://github.com/galmungral/polyrender}{A GPU-accelerated 2D vector graphics renderer}\\
+\href{https://github.com/galmungral/hanbun-lang}{A stack-oriented esoteric programming language} \\
+\href{https://github.com/galmungral/mercator}{A raster map tile renderer}\\
+\href{https://github.com/galmungral/michelangelo}{A canvas-based UI framework}\\
+\href{https://github.com/galmungral/react-teletype}{A server-side interactive React renderer} \\
+\href{https://github.com/galmungral/replay}{A frontend framework with a module bundler}
+
+\section*{\textnormal{COURSEWORK}}
+
+\subsection*{{Graphics / Physics}}
+Interactive Computer Graphics\\
+Computational Photography\\
+Scientific Visualization\\
+Numerical Analysis\\
+Classical Differential Geometry\\
+Partial Differential Equations\\
+Ordinary Differential Equations\\
+Parallel Programming\\
+General Relativity\\
+Quantum Mechanics\\
+Computer Simulation
+
+\subsection*{{Languages / Networks}}
+Optimizing Compiler Construction\\
+Programming Languages\\
+Natural Language Processing\\
+Information Retrieval\\
+Distributed Algorithms\\
+Distributed Systems\\
+Computer Networking\\
+Relational Databases\\
+Information Security\\
+
+\newpage
+
+\section*{\textnormal{EXPERIENCE}}
+
+\subsection*{美国国家超级计算机应用中心 (NCSA)}
+\textit{科研软件工程师/科研助理, 可视化分析组, 视觉部门}\\
+Aug. 2022 - Present \textbullet\ Urbana, IL, US
+\begin{itemize}
+\item 为多个国立卫生研究院 (NIH) 资助的科研项目开发应用, 主要负责生物医学及地理空间数据的可视化.
+\item 使用 OpenLayers, GeoJSON 与人口普查局数据制作了伊利诺伊州蜱虫数据的交互式地图可视化.
+\item 负责 INHS-MEL 实验室 BiteMap 蜱虫数据众包项目 web 应用的全栈开发与部署.
+\item 参与了癌症演化树可视化分析工具 PhyloDiver 前端应用的维护与开发.
+\end{itemize}
+
+\subsection*{谷露软件}
+\textit{前端工程师, 申请人跟踪系统(ATS)}\\
+Nov. 2020 - Nov. 2021 \textbullet\ Shanghai, China
+\begin{itemize}
+\item 在多个项目团队内开发了多个web应用、微信小程序、前端库和后端渲染服务.
+\item 参与了高度可定制的ATS系统底层的拖拽式图形用户界面生成器的维护与开发.
+\item 负责公司首个单点登录系统(SSO)的前端界面和多个项目前端登陆流程的整合.
+\end{itemize}
+
+\subsection*{Étude LLC}
+\textit{软件工程师, 创始团队}\\
+Aug. 2019 - Aug. 2020 \textbullet\ Atlanta, GA, US
+\begin{itemize}
+\item 负责开发智能PDF阅读器的图书目次解析器 (准确率>85\%) 和滑词高亮等多个主要功能.
+\end{itemize}
+
+\section*{\textnormal{SKILLS}}
+
+\subsection*{Languages}
+C, C++, TypeScript, JavaScript, GLSL, HTML, SVG, CSS, Sass, LESS, PHP, Bash, Zsh, Python, Java, SQL, MATLAB, Haskell, OCaml, Common Lisp, Swift, Rust, WebAssembly
+
+\subsection*{Frameworks / Libraries}
+React, Angular, Node.js, Electron, Next.js, Redux, MobX, ECharts, NumPy, SciPy, PyTorch, OpenCV, SwiftUI, UIKit
+
+\subsection*{Development Tools}
+Visual Studio Code, Vim, Git, Make, LLVM, esbuild, Babel, Rollup, webpack, Parcel, Vite, Tailwind CSS, Cypress, Jest, Puppeteer, ESLint, Prettier, TypeDoc, GitHub Actions, GitLab CI, Docker
+
+\newpage 
+
 {\Huge\textbf{何文琦}} \quad \texttt{github.com/galmungral}
 
-\section*{Experience}
-
-\textbf{美国国家超级计算机应用中心 (NCSA)}, Urbana, IL, US
-
-\textit{研究生科研助理 / 科研软件工程师} (RSE) \textit{,可视化分析组, 视觉部门} \hfill Aug. 2022 - Present
-
-\begin{itemize}
-\item \texttt{为美国国立卫生研究院资助的科研项目开发软件, 专注于生物医学及地理空间数据的可视化.}
-\item \texttt{使用 OpenLayers 和 GeoJSON 制作了伊利诺伊州蜱虫数据的交互式地图可视化系统.}
-\item \texttt{参与了癌症演化树(phylogeny)可视化分析工具 PhyloDiver 的维护与开发.}
-\end{itemize}
-
-\textbf{谷露软件}, Shanghai, China
-
-\textit{前端工程师, 申请人追踪系统} (ATS) \hfill Nov. 2020 - Nov. 2021
-
-\begin{itemize}
-\item \texttt{在多个项目团队内开发了多个web应用、微信小程序、前端库和后端图片渲染服务.}
-\item \texttt{参与了高度可定制的ATS系统底层的拖拽式图形用户界面生成器的维护与开发.}
-\item \texttt{负责公司首个单点登录系统(SSO)的前端界面和多个项目前端登陆流程的整合.}
-\end{itemize}
-
-\textbf{Étude LLC}, Atlanta, GA, US
-
-\textit{软件工程师, 创始团队} \hfill Aug. 2019 - Aug. 2020
-
-\begin{itemize}
-\item \texttt{开发了智能PDF阅读器的多个主要功能, 包括准确率>85\%的图书目次自动解析器.}
-\end{itemize}
 
 \section*{Education}
 
