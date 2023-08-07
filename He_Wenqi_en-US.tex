@@ -1,7 +1,8 @@
-\documentclass[11pt,twocolumn]{article}
-\setlength\columnsep{0pt}
+\documentclass[11pt]{article}
 
-\usepackage[margin=4em]{geometry}
+\usepackage[margin=40pt]{geometry}
+
+
 
 \setlength\parindent{0pt}
 \pagestyle{empty}
@@ -11,81 +12,80 @@
 
 
 \usepackage{enumitem}
-\setitemize{itemsep=0.2em,topsep=1em,parsep=1pt,partopsep=0pt,leftmargin=2em}
+\setitemize{itemsep=2pt,topsep=1em,parsep=1pt,partopsep=0pt,leftmargin=2em}
 
 \usepackage{titlesec}
-\usepackage{fontspec}
-\newfontfamily\cjkfont{Songti TC}
 
-\titlespacing{\section}{-1em}{1em}{0.5em}
-\titlespacing{\subsection}{-0.5em}{0.5em}{0.2em}
+\titlespacing{\section}{0pt}{20pt}{5pt}
+\titlespacing{\subsection}{0pt}{10pt}{2pt}
 
 \usepackage{hyperref}
 
 \newcommand{\comment}[1]{}
 
+\begin{document} 
+\centering
 
-\begin{document}
-
+\begin{minipage}{250pt}
 {\Huge\bf Wenqi He}
 
 \vspace{10pt}
-\href{mailto:hewenqi96@gmail.com}{\texttt{hewenqi96@gmail.com}}\\
-\href{https://linkedin.com/in/galmungral}{\texttt{linkedin.com/in/galmungral}}\\
-\href{https://github.com/galmungral}{\texttt{github.com/galmungral}}
+\texttt{\href{mailto:hewenqi96@gmail.com}{Email: hewenqi96@gmail.com}}\\
+\texttt{\href{https://linkedin.com/in/galmungral}{LinkedIn} \& \href{https://github.com/galmungral}{GitHub}: galmungral}
 
 
-\section*{\textnormal{EDUCATION}}
+\section*{\it EDUCATION}
 
 \subsection*{University of Illinois Urbana-Champaign}
 \textit{Master of Computer Science}\\
-Dec. 2023 (expected) \textbullet\ Urbana, IL, US
+Dec. 2023 \,|\, Urbana, IL, US
 
 \subsection*{Georgia Institute of Technology}
 \textit{Bachelor of Science in Computer Science}\\
 \textit{Minor in Physics}\\
-Dec. 2019 \textbullet\ Atlanta, GA, US
+Dec. 2019 \,|\, Atlanta, GA, US
 
-\section*{\textnormal{PROJECTS}}
+\section*{\it PROJECTS}
 
-\href{https://github.com/galmungral/polyrender}{A GPU-accelerated 2D vector graphics renderer}\\
-\href{https://github.com/galmungral/hanbun-lang}{A stack-oriented esoteric programming language} \\
+\href{https://github.com/galmungral/polyrender}{A GPU-accelerated vector graphics renderer}\\
+\href{https://github.com/galmungral/simple-raytracer}{A simple software raytracer}\\
+\href{https://github.com/galmungral/rasterizer}{A simple software rasterizer}\\
 \href{https://github.com/galmungral/mercator}{A basic raster map tile renderer}\\
-\href{https://github.com/galmungral/michelangelo}{A canvas-based UI framework}\\
+\href{https://github.com/galmungral/michelangelo}{A canvas-based user interface framework}\\
+\href{https://github.com/galmungral/hanbun-lang}{A stack-oriented esoteric language} \\
 \href{https://github.com/galmungral/react-teletype}{A server-side interactive React renderer} \\
 \href{https://github.com/galmungral/replay}{A frontend framework with a module bundler}
 
-\section*{\textnormal{COURSEWORK}}
 
-\subsection*{{Graphics / Physics}}
-Scientific Visualization\\
+\section*{\it COURSEWORK}
+\subsection*{\it Graphics \& Physics}
 Interactive Computer Graphics\\
+Scientific Visualization\\
 Computational Photography\\
 Parallel Programming\\
-Numerical Analysis/Methods\\
+Numerical Analysis\\
 Partial Differential Equations\\
 Differential Geometry\\
-General Relativity\\
-Quantum Mechanics\\
-Quantum Computing\\
+General Relativity
 
-\subsection*{{Languages / Communication}}
+\subsection*{\it Language \& Communication}
 Compiler Construction\\
 Programming Languages\\
 Natural Language Processing\\
-Distributed Algorithms/Systems\\
 Computer Networking\\
+Distributed Algorithms\\
 Relational Databases\\
 Information Retrieval\\
-Information Security\\
+Information Security
 
-\newpage
+\end{minipage}
+\begin{minipage}{270pt}
 
-\section*{\textnormal{EXPERIENCE}}
+\section*{\it EXPERIENCE}
 
 \subsection*{National Center for Supercomputing Applications}
 \textit{Graduate Research Assistant, Visual Analytics} \\
-Aug. 2022 - Present \textbullet\ Urbana, IL, US
+Aug. 2022 - Present \,|\, Urbana, IL, US
 
 \begin{itemize}
 \item Developed software for scientific researchers, with a focus on biomedical and geospatial data visualization.
@@ -96,7 +96,7 @@ Aug. 2022 - Present \textbullet\ Urbana, IL, US
 
 \subsection*{Gllue Software}
 \textit{Frontend Engineer, Applicant Tracking System (ATS)}\\
-Nov. 2020 - Nov. 2021 \textbullet\ Shanghai, China
+Nov. 2020 - Nov. 2021 \,|\, Shanghai, China
 
 \begin{itemize}
 \item Collaborated with multiple teams to build web applications, WeChat mini-programs, services and libraries.
@@ -106,20 +106,27 @@ Nov. 2020 - Nov. 2021 \textbullet\ Shanghai, China
 
 \subsection*{Étude LLC}
 \textit{Software Engineer, Founding Team}\\
-Aug. 2019 - Aug. 2020 \textbullet\ Atlanta, GA, US
+Aug. 2019 - Aug. 2020 \,|\,  Atlanta, GA, US
 
 \begin{itemize}
 \item Developed several features of a desktop PDF reader, including table of contents parsing and text highlighting.
 \end{itemize}
 
-\section*{\textnormal{SKILLS}}
-\subsection*{Languages}
-C, C++, TypeScript, JavaScript, GLSL, HTML, SVG, CSS, Sass, LESS, PHP, Bash, Zsh, Python, Java, SQL, MATLAB, Haskell, OCaml, Common Lisp, Swift, Rust, WebAssembly
+\section*{\it SKILLS}
+\subsection*{\it Languages}
+TypeScript, JavaScript, C, C++, GLSL, WebAssumbly, Rust,\\
+SQL, Python, Java, PHP, HTML, SVG, CSS, Sass, LESS,\\
+OCaml, Haskell, Common Lisp, MATLAB, Mathematica
 
-\subsection*{Frameworks / Libraries}
-React, Angular, Node.js, Electron, Next.js, Redux, MobX, ECharts, NumPy, SciPy, PyTorch, OpenCV, SwiftUI, UIKit
+\subsection*{\it Frameworks \& Libraries}
+Angular, React, Node.js, Next.js, NumPy, SciPy, PyTorch
 
-\subsection*{Development Tools}
-Visual Studio Code, Vim, Git, Make, LLVM, esbuild, Babel, Rollup, webpack, Parcel, Vite, Tailwind CSS, Cypress, Jest, Puppeteer, ESLint, Prettier, TypeDoc, GitHub Actions, GitLab CI, Docker, Kubernetes
+\subsection*{\it Development Tools}
+Bash, Git, Vim, Visual Studio Code, LLVM, Make,\\
+esbuild, Babel, Rollup, webpack, Vite, Tailwind CSS,\\
+TypeDoc, Cypress, Puppeteer, Jest, ESLint, Prettier,\\
+GitHub Actions, GitLab CI, Docker, Kubernetes
+
+\end{minipage}
 
 \end{document}
