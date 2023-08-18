@@ -20,23 +20,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Search Tex Files
-        id: search
-        run: |
-          shopt -s globstar
-          echo "tex_files=$(echo **/*.tex)" >> $GITHUB_OUTPUT
+      - name: Set Up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: latest
 
-      # - name: Build
-      #   uses: ./.actions/compile-xelatex/
-      #   with:
-      #     files: ${{ steps.search.outputs.tex_files }}
-
-      - name: After Build
+      - env:
+          TOKEN: ${{ secrets.TOKEN }}
         run: |
-          shopt -s globstar
-          mkdir dist
-          for f in **/*.tex; do cp ${f%.tex}.pdf dist; done
-          echo '<meta http-equiv="Refresh" content="0; url='//galmungral.github.io/He_Wenqi_en-US.pdf'" />' > dist/index.html
+          npm ci
+          mkdir -p dist
+          npm run -s build > dist/index.html
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
