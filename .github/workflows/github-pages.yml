@@ -32,9 +32,8 @@ jobs:
           npm ci
           mkdir -p dist
           npm run -s build > dist/index.html
-          ls **/*.pdf
+          shopt -s globstar
           cp **/*.pdf dist
-          ls dist
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
