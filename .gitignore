@@ -4,5 +4,6 @@
 *.synctex.gz
 *.swp
 .DS_Store
-*.html
+.html
+/dist
 /node_modules

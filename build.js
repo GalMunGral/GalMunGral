@@ -36,7 +36,7 @@ async function getRepos() {
       "<b>University of Illinois Urbana-Champaign</b>, Urbana-Champaign, IL, '22-'23<br>\n" +
       "<i>Master of Computer Science</i><br>\n" +
       "<b>Georgia Institute of Technology</b>, Atlanta, GA, '15-'19<br>\n" +
-      '<i>Bachelor of Science in Computer Science, Minor in <a href="./academic/GT-PHYS-7125-Paper.pdf">Physics</a></i><br>\n'
+      '<i>Bachelor of Science in Computer Science, Minor in <a href="./GT-PHYS-7125-Paper.pdf">Physics</a></i><br>\n'
   );
 
   const repos = await getRepos();

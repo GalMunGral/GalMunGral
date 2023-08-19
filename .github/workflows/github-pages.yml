@@ -31,6 +31,7 @@ jobs:
           npm ci
           mkdir -p dist
           npm run -s build > dist/index.html
+          cp **/*.pdf dist
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
