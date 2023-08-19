@@ -31,12 +31,18 @@ async function getRepos() {
   process.stdout.write(
     "<h1>Wenqi He</h1>\n" +
       '<h2><a href="./resume.pdf">Resume</a></h2>\n' +
+      "<p>\n" +
       "<b>National Center for Supercomputing Applications</b>, Urbana, IL, '22-'23<br>\n" +
       "<i>Graduate Research Assistant</i><br>\n" +
+      "</p>\n" +
+      "<p>\n" +
       "<b>University of Illinois Urbana-Champaign</b>, Urbana-Champaign, IL, '22-'23<br>\n" +
       "<i>Master of Computer Science</i><br>\n" +
+      "</p>\n" +
+      "<p>\n" +
       "<b>Georgia Institute of Technology</b>, Atlanta, GA, '15-'19<br>\n" +
-      '<i>Bachelor of Science in Computer Science, Minor in <a href="./GT-PHYS-7125-Paper.pdf">Physics</a></i><br>\n'
+      '<i>Bachelor of Science in Computer Science, Minor in <a href="./GT-PHYS-7125-Paper.pdf">Physics</a></i><br>\n' +
+      "</p>\n"
   );
 
   const repos = await getRepos();
