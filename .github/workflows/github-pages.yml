@@ -25,13 +25,16 @@ jobs:
         with:
           node-version: latest
 
-      - env:
+      - name: Generate HTML
+        env:
           TOKEN: ${{ secrets.TOKEN }}
         run: |
           npm ci
           mkdir -p dist
           npm run -s build > dist/index.html
+          ls **/*.pdf
           cp **/*.pdf dist
+          ls dist
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
