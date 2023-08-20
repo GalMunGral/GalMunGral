@@ -29,11 +29,10 @@ async function getRepos() {
   const user = await getUser();
 
   process.stdout.write(
-    "<h1>Wenqi He</h1>\n" +
-      '<h2><a href="./resume.pdf">Resume</a></h2>\n' +
+    '<h1><a href="/resume.pdf">Wenqi He</a></h1>\n' +
       "<p>\n" +
       "<b>National Center for Supercomputing Applications</b>, Urbana, IL, '22-'23<br>\n" +
-      "<i>Graduate Research Assistant</i><br>\n" +
+      '<i>Graduate Research Assistant, <a href="https://www.ncsa.illinois.edu/expertise/visualization/">Visualization</a></i><br>\n' +
       "</p>\n" +
       "<p>\n" +
       "<b>University of Illinois Urbana-Champaign</b>, Urbana-Champaign, IL, '22-'23<br>\n" +
@@ -54,9 +53,9 @@ async function getRepos() {
     if (repo.has_pages && !exclude.has(repo.name)) {
       if (repo.owner.id == user?.id) {
         process.stdout.write(
-          `<li><a href="https://galmungral.github.io/${repo.name}"><code>${
-            repo.name
-          }</code></a>${repo.description ? ": " + repo.description : ""}</li>\n`
+          `<li><a href="/${repo.name}"><code>${repo.name}</code></a>${
+            repo.description ? ": " + repo.description : ""
+          }</li>\n`
         );
       }
     }
