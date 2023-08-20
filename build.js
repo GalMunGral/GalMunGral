@@ -47,7 +47,7 @@ async function getRepos() {
   const repos = await getRepos();
   repos.sort((a, b) => (a.created_at > b.created_at ? -1 : 1));
 
-  process.stdout.write("<h2>Demos</h2>\n");
+  process.stdout.write("<h2>Pet Projects</h2>\n");
   process.stdout.write("<ul>");
   for (const repo of repos) {
     if (repo.has_pages && !exclude.has(repo.name)) {
