@@ -32,7 +32,7 @@ async function getRepos() {
     '<h1><a href="/resume.pdf">Wenqi He</a></h1>\n' +
       "<p>\n" +
       "<b>National Center for Supercomputing Applications</b>, Urbana, IL, '22-'23<br>\n" +
-      '<i>Graduate Research Assistant, <a href="https://www.ncsa.illinois.edu/expertise/visualization/">Visualization</a></i><br>\n' +
+      "<i>Graduate Research Assistant, Visualization</i><br>\n" +
       "</p>\n" +
       "<p>\n" +
       "<b>University of Illinois Urbana-Champaign</b>, Urbana-Champaign, IL, '22-'23<br>\n" +
@@ -40,7 +40,7 @@ async function getRepos() {
       "</p>\n" +
       "<p>\n" +
       "<b>Georgia Institute of Technology</b>, Atlanta, GA, '15-'19<br>\n" +
-      '<i>Bachelor of Science in Computer Science, Minor in <a href="./GT-PHYS-7125-Paper.pdf">Physics</a></i><br>\n' +
+      "<i>Bachelor of Science in Computer Science, Minor in Physics</i><br>\n" +
       "</p>\n"
   );
 
