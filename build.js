@@ -33,7 +33,7 @@ async function getRepos() {
       "<p>\n" +
       "<b>National Center for Supercomputing Applications</b>, Urbana, IL<br>\n" +
       "<i>Research Software Engineer</i> (2024 - )<br>\n" +
-      "<i>Graduate Research Assistant, Visual Analytics</i> (2022 - 2023) <br>\n" +
+      "<i>Graduate Research Assistant</i> (2022 - 2023) <br>\n" +
       "</p>\n" +
       "<p>\n" +
       "<b>University of Illinois Urbana-Champaign</b>, Urbana-Champaign, IL<br>\n" +
