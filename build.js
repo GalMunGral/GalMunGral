@@ -55,9 +55,9 @@ async function getRepos() {
     if (repo.has_pages && !exclude.has(repo.name)) {
       if (repo.owner.id == user?.id) {
         process.stdout.write(
-          `<li><a href="/${repo.name}"><code>${repo.name}</code></a>${
+          `<li><a href="/${repo.name}"><code>${repo.name}</code></a><i>${
             repo.description ? ": " + repo.description : ""
-          }</li>\n`
+          }</i></li>\n`
         );
       }
     }
