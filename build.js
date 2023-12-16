@@ -41,7 +41,8 @@ async function getRepos() {
       "</p>\n" +
       "<p>\n" +
       "<b>Georgia Institute of Technology</b>, Atlanta, GA<br>\n" +
-      "<i>Bachelor of Science in Computer Science, Minor in Physics</i> (2019)<br>\n" +
+      "<i>Bachelor of Science in Computer Science</i> (2019)<br>\n" +
+      "<i>Minor in Physics</i><br>\n" +
       "</p>\n"
   );
 
