@@ -29,7 +29,7 @@ async function getRepos() {
   const user = await getUser();
 
   process.stdout.write(
-    '<h1><a href="/resume.pdf">Wenqi He 何文琦</a></h1>\n' +
+    '<h1><a href="/resume.pdf">Wenqi He</a></h1>\n' +
       "<p>\n" +
       "<b>National Center for Supercomputing Applications</b>, Urbana, IL<br>\n" +
       "<i>Research Software Engineer</i> (2024 - )<br>\n" +
