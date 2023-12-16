@@ -31,16 +31,17 @@ async function getRepos() {
   process.stdout.write(
     '<h1><a href="/resume.pdf">Wenqi He</a></h1>\n' +
       "<p>\n" +
-      "<b>National Center for Supercomputing Applications</b>, Urbana, IL, '22-'23<br>\n" +
-      "<i>Graduate Research Assistant, Visualization</i><br>\n" +
+      "<b>National Center for Supercomputing Applications</b>, Urbana, IL<br>\n" +
+      "<i>Research Software Engineer</i>, Jan. 2024 - Present <br>\n" +
+      "<i>Graduate Research Assistant, Visual Analytics</i>, Aug. 2022 - Dec. 2023<br>\n" +
       "</p>\n" +
       "<p>\n" +
-      "<b>University of Illinois Urbana-Champaign</b>, Urbana-Champaign, IL, '22-'23<br>\n" +
-      "<i>Master of Computer Science</i><br>\n" +
+      "<b>University of Illinois Urbana-Champaign</b>, Urbana-Champaign, IL<br>\n" +
+      "<i>Master of Computer Science</i>, Dec. 2023<br>\n" +
       "</p>\n" +
       "<p>\n" +
-      "<b>Georgia Institute of Technology</b>, Atlanta, GA, '15-'19<br>\n" +
-      "<i>Bachelor of Science in Computer Science, Minor in Physics</i><br>\n" +
+      "<b>Georgia Institute of Technology</b>, Atlanta, GA<br>\n" +
+      "<i>Bachelor of Science in Computer Science, Minor in Physics</i>, Dec. 2019<br>\n" +
       "</p>\n"
   );
 
