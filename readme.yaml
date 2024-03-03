@@ -17,18 +17,17 @@ work:
     location: Urbana, IL, US
     duration: { start: August 2022, end: December 2023 }
     description:
-      - Developed web applications for multiple research projects involving geospatial and biomedical data visualization.
-      - Created cartographic visualizations using MapLibre GL JS, OpenLayers, GeoJSON, and PostGIS.
-      - Contributed to the maintenance of PhyloDiver, a web-based interactive tool for visualizing tumor phylogenies.
+      - Developed web-based geospatial visualizations using MapLibre and OpenLayers.
+      - Contributed to the development and maintenance of multiple web applications.
 
   - title: Frontend Software Engineer
     employer: Gllue Software
     location: Shanghai, China
     duration: { start: November 2020, end: November 2021 }
     description:
-      - Collaborated with multiple teams to develop web applications, WeChat mini-programs, services, and libraries.
-      - Contributed to the drag-and-drop user interface builder framework that powers the applicant tracking system (ATS).
-      - Led the frontend implementation and integration of a new Single Sign-On system across multiple product lines.
+      - Developed web applications, server-side drawing services, and WeChat mini-programs.
+      - Maintained the user interface builder that powers our applicant tracking system.
+      - Participated in the design, implementation and integration of a single sign-on system.
 
 education:
   - institution: University of Illinois Urbana-Champaign
@@ -43,11 +42,11 @@ education:
     conferred: December 2019
 
 skills:
-  - C
   - C++
   - CUDA
   - WebGL
   - SQL
+  - PostgreSQL
   - React
   - Angular
   - TypeScript
