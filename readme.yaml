@@ -23,7 +23,7 @@ work:
 
   - title: Frontend Software Engineer
     employer: Gllue Software
-    locaiton: Shanghai, China
+    location: Shanghai, China
     duration: { start: November 2020, end: November 2021 }
     description:
       - Collaborated with multiple teams to develop web applications, WeChat mini-programs, services, and libraries.
