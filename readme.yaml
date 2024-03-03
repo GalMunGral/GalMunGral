@@ -37,7 +37,8 @@ education:
 
   - institution: Georgia Institute of Technology
     location: Atlanta, GA, US
-    degree: Bachelor of Science in Computer Science
+    degree: Bachelor of Science
+    major: Computer Science
     minor: Physics
     conferred: December 2019
 
