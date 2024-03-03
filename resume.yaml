@@ -9,16 +9,13 @@ work:
   - title: Research Software Engineer
     employer: National Center for Supercomputing Applications
     location: Urbana, IL, US
-    duration:
-      from: January 2024
+    duration: { start: January 2024 }
     description:
 
   - title: Graduate Research Assistant
     employer: National Center for Supercomputing Applications
     location: Urbana, IL, US
-    duration:
-      from: August 2022
-      to: December 2023
+    duration: { start: August 2022, end: December 2023 }
     description:
       - Developed web applications for multiple research projects involving geospatial and biomedical data visualization.
       - Created cartographic visualizations using MapLibre GL JS, OpenLayers, GeoJSON, and PostGIS.
@@ -27,9 +24,11 @@ work:
   - title: Frontend Software Engineer
     employer: Gllue Software
     locaiton: Shanghai, China
-    position:
-      start: November 2020
-      end: November 2021
+    duration: { start: November 2020, end: November 2021 }
+    description:
+      - Collaborated with multiple teams to develop web applications, WeChat mini-programs, services, and libraries.
+      - Contributed to the drag-and-drop user interface builder framework that powers the applicant tracking system (ATS).
+      - Led the frontend implementation and integration of a new Single Sign-On system across multiple product lines.
 
 education:
   - institution: University of Illinois Urbana-Champaign
