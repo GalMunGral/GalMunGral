@@ -9,13 +9,15 @@ work:
   - title: Research Software Engineer
     employer: National Center for Supercomputing Applications
     location: Urbana, IL, US
-    duration: { start: January 2024 }
+    duration: { start: 2024-01 }
     description:
+      - Built visualization pipelines for chemical data, from preprocessing to 2D/3D visualizations.
+      - Contributed to developing a configuration-driven form and notification framework.
 
   - title: Graduate Research Assistant
     employer: National Center for Supercomputing Applications
     location: Urbana, IL, US
-    duration: { start: August 2022, end: December 2023 }
+    duration: { start: 2022-08, end: 2023-12 }
     description:
       - Developed web-based geospatial visualizations using MapLibre and OpenLayers.
       - Contributed to the development and maintenance of multiple web applications.
@@ -23,7 +25,7 @@ work:
   - title: Frontend Software Engineer
     employer: Gllue Software
     location: Shanghai, China
-    duration: { start: November 2020, end: November 2021 }
+    duration: { start: 2020-11, end: 2021-11 }
     description:
       - Developed web applications, server-side drawing services, and WeChat mini-programs.
       - Maintained the user interface builder that powers our applicant tracking system.
@@ -33,14 +35,14 @@ education:
   - institution: University of Illinois Urbana-Champaign
     location: Urbana-Champaign, IL, US
     degree: Master of Computer Science
-    conferred: December 2023
+    conferred: 2023-12
 
   - institution: Georgia Institute of Technology
     location: Atlanta, GA, US
     degree: Bachelor of Science
     major: Computer Science
     minor: Physics
-    conferred: December 2019
+    conferred: 2019-12
 
 skills:
   - C++
