@@ -29,9 +29,9 @@ Georgia Institute of Technology, Atlanta, GA
 
 Skills -------------------------------------------------------------------------
 
-C, C++, Java, Python, SQL, PostgreSQL, MySQL, TypeScript, SCSS, GLSL
-React, Angular, GeoJSON, MapLibre, OpenLayers, WebGL,
-Flask, FastAPI, SQLAlchemy, Django REST Framework, Node.js, Sequelize, MongoDB
+C, C++, Java, Python, SQL, TypeScript, JavaScript, SCSS, CSS, GLSL, HTML, SVG
+React, Angular, GeoJSON, MapLibre, OpenLayers, WebGL, Node.js, MongoDB, Sequelize,
+PostgreSQL, MySQL, SQLAlchemy, Flask, FastAPI, Django REST Framework 
 Docker, Kubernetes, Helm, ArgoCD, GitLab CI, GitHub Actions,
 Jupyter Notebook, NumPy, SciPy, OpenCV-Python, Matplotlib, PyTorch, Pandas,
 CUDA, LLVM, Rust, Go, Swift, Kotlin, OCaml, Haskell, Common Lisp
