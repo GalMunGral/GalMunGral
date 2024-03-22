@@ -12,6 +12,7 @@ Work ---------------------------------------------------------------------------
     - Engineered visualization pipelines for chemical data, from preprocessing to 2D/3D visualizations.
     - Built visualization pipelines for geospatial data using PostGIS, MapLibre and OpenLayers.
     - Contributed to developing a configuration-driven form and notification framework.
+
 - Gllue Software, Shanghai, China
   Frontend Software Engineer (2020.11 - 2021.11)
     - Developed web applications, server-side canvas rendering services, and WeChat mini-programs.
