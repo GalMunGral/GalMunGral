@@ -1,0 +1,38 @@
+Wenqi He
+
+email: galmungral@gmail.com
+linkedin: galmungral
+github: galmungral
+
+Work ---------------------------------------------------------------------------
+
+- National Center for Supercomputing Applications, Urbana, IL  
+  Research Software Engineer (2024.01 - Present)
+    - Built visualization pipelines for chemical data, from preprocessing to 2D/3D visualizations.
+    - Contributed to developing a configuration-driven form and notification framework.
+  Graduate Research Assistant (2022.08 - 2023.12)
+    - Developed web-based geospatial visualizations using MapLibre and OpenLayers.
+    - Contributed to the development and maintenance of multiple web applications.
+
+- Gllue Software, Shanghai, China
+  Frontend Software Engineer (2020.11 - 2021.11)
+    - Developed web applications, server-side drawing services, and WeChat mini-programs.
+    - Maintained the user interface builder that powers our applicant tracking system.
+    - Participated in the design, implementation and integration of a single sign-on system.
+
+Education ----------------------------------------------------------------------
+
+- University of Illinois Urbana-Champaign, Urbana-Champaign, IL
+  Master of Computer Science (2023.12)
+
+- Georgia Institute of Technology, Atlanta, GA
+  Bachelor of Science in Computer Science with a Minor in Physics (2019.12)
+
+Skills -------------------------------------------------------------------------
+
+C, C++, CUDA, LLVM, Java, Python, SQL, PostgreSQL, MySQL, TypeScript/JavaScript, SCSS/CSS, GLSL
+React, Angular, GeoJSON, MapLibre, OpenLayers, OpenGL/WebGL,
+Flask, FastAPI, SQLAlchemy, Django REST Framework, Node.js, Sequelize, MongoDB
+Docker, Kubernetes, Helm, ArgoCD, GitLab CI, GitHub Actions,
+Jupyter Notebook, NumPy, SciPy, OpenCV-Python, Matplotlib, PyTorch, Pandas,
+Go, Rust, Swift, Kotlin, OCaml, Haskell, Common Lisp
