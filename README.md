@@ -1,14 +1,12 @@
 *Vidi, scripsi, alio modo vidi.*
 
-*Gal Mun-Gral* is the [上古漢語](https://en.wikipedia.org/wiki/Old_Chinese) pronunciation of my name.
+*Gal Mun-Gral* is the Old Chinese pronunciation of my name.
 
-I'm creating / I've created:
-- a [programming language](https://galmungral.github.io/hanbun-lang/) based on [文言 (漢文)](https://en.wikipedia.org/wiki/Classical_Chinese)
-- an [interactive article](https://galmungral.github.io/SIGUI/) explaining the mathematical foundation of UI
+Stuff I'm creating / I've created:
+- [a programming language](https://galmungral.github.io/hanbun-lang/) based on Classical Chinese
+- [an interactive article](https://galmungral.github.io/SIGUI/) explaining the mathematical foundation of UI
 - [animated](https://galmungral.github.io/fdm-viz/) [visualizations](https://galmungral.github.io/qft-viz/) to make sense of mathematics
-- a [visualization](https://galmungral.github.io/individual-study/) to illustrate the mathematical models of colors
-- [fun animations](https://galmungral.github.io/maplibre-shader-demo/) with WebGL-powered web maps
-- and more...
-
+- [a visualization](https://galmungral.github.io/individual-study/) to illustrate the mathematical models of colors
+- [fun animations](https://galmungral.github.io/maplibre-shader-demo/) with web maps
 
 Here is my [résumé](https://raw.githubusercontent.com/GalMunGral/galmungral/main/RESUME).
