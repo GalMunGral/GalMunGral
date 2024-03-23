@@ -2,7 +2,7 @@
 
 *Gal Mun-Gral* is the Old Chinese pronunciation of my name.
 
-Stuff I'm creating / I've created:
+Stuff I am creating / have created:
 - [a programming language](https://galmungral.github.io/hanbun-lang/) based on Classical Chinese
 - [an interactive article](https://galmungral.github.io/SIGUI/) explaining the mathematical foundation of UI
 - [animated](https://galmungral.github.io/fdm-viz/) [visualizations](https://galmungral.github.io/qft-viz/) to make sense of mathematics
