@@ -5,7 +5,6 @@ Stuff I am creating / have created:
 - [simulations](https://galmungral.github.io/fdm-viz/) and [illustrations](https://galmungral.github.io/qft-viz/) to explain mathematical concepts
 - an [interactive article](https://galmungral.github.io/SIGUI/) that explains the inner workings of UI
 - a [programming language](https://galmungral.github.io/hanbun-lang/) based on Classical Chinese
-- a [visualization](https://galmungral.github.io/individual-study/) to explore color models
 
 Here is my [résumé](https://raw.githubusercontent.com/GalMunGral/galmungral/main/RESUME). 
 
