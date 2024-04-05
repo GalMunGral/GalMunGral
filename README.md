@@ -1,13 +1,12 @@
-*Vidi, scripsi, alio modo vidi.*
-
-*Gal Mun-Gral* is the Old Chinese pronunciation of my name.
+> *Vidi, scripsi, alio modo vidi.*
 
 Stuff I am creating / have created:
-- [a programming language](https://galmungral.github.io/hanbun-lang/) based on Classical Chinese
-- [an interactive article](https://galmungral.github.io/SIGUI/) explaining the mathematical foundation of UI
-- a simple ball-and-stick [Tripos Mol2 file renderer](https://galmungral.github.io/mol-renderer)
-- [animated](https://galmungral.github.io/fdm-viz/) [visualizations](https://galmungral.github.io/qft-viz/) to make sense of mathematics
-- [a visualization](https://galmungral.github.io/individual-study/) to illustrate the mathematical models of colors
-- [fun animations](https://galmungral.github.io/maplibre-shader-demo/) with web maps
+- an [interactive article](https://galmungral.github.io/SIGUI/) that explains the inner workings of UI
+- a Tripos Mol2 file [ball-and-stick renderer](https://galmungral.github.io/mol-renderer)
+- [simulations](https://galmungral.github.io/fdm-viz/) and [illustrations](https://galmungral.github.io/qft-viz/) to explain mathematical concepts
+- a [programming language](https://galmungral.github.io/hanbun-lang/) based on Classical Chinese
+- a [visualization](https://galmungral.github.io/individual-study/) to explore color models
 
-Here is my [résumé](https://raw.githubusercontent.com/GalMunGral/galmungral/main/RESUME).
+Here is my [résumé](https://raw.githubusercontent.com/GalMunGral/galmungral/main/RESUME). 
+
+(Gal Mun-Gral is the Old Chinese pronunciation of my name.)
