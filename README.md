@@ -2,7 +2,7 @@
 
 Stuff I am creating / have created:
 - 🧬 a simple [Tripos Mol2 file renderer](https://galmungral.github.io/mol-renderer)
-- 🌌 basic [simulations](https://galmungral.github.io/fdm-viz/) and [illustrations](https://galmungral.github.io/qft-viz/) to explain math
+- 🌌 basic [simulations](https://galmungral.github.io/fdm-viz/) to visualize math concepts
 - 📜 an [interactive article](https://galmungral.github.io/sigui/) about the inner workings of UI
 - 🔣 a [programming language](https://galmungral.github.io/hanbun-lang/) based on Classical Chinese
 
