@@ -1,7 +1,7 @@
 > *Vidi, scripsi, alio modo vidi.*
 
 Stuff I am creating / have created:
-- 🌌 Visualizations ([volume](https://galmungral.github.io/2001/), [surface](https://galmungral.github.io/fdm-viz/)) of numerical solutions of PDEs
+- 🌌 Visualizations ([volume](https://galmungral.github.io/fdm-3d/), [surface](https://galmungral.github.io/fdm-2d/)) of numerical solutions of PDEs
 - 🧬 A simple Tripos Mol2 file [3D viewer](https://galmungral.github.io/mol-renderer)
 - 📜 An [article](https://galmungral.github.io/sigui/) about the inner workings of UI
 - 🔣 An esoteric [language](https://galmungral.github.io/hanbun-lang/) based on Classical Chinese
