@@ -9,8 +9,8 @@ Gal Mun-Gral is the [Old Chinese](https://en.wikipedia.org/wiki/Old_Chinese) pro
 - 🧬 A simple Tripos Mol2 file [3D viewer](https://galmungral.github.io/mol-renderer)
 - 🔣 An esoteric [language](https://galmungral.github.io/hanbun-lang/) based on Classical Chinese
 
-### My Reading List:
+### My Favorite Reads:
 - [A Device Independent Graphics Imaging Model for Use with Raster Devices](https://dl.acm.org/doi/pdf/10.1145/800064.801297)
 - [Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I](https://dl.acm.org/doi/pdf/10.1145/367177.367199)
-- [PostScript Language Reference Manual](https://www.adobe.com/jp/print/postscript/pdfs/PLRM.pdf)
 - [Structure and Interpretation of Computer Programs](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-4.html#%25_toc_start)
+- [PostScript Language Reference Manual](https://www.adobe.com/jp/print/postscript/pdfs/PLRM.pdf)
