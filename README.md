@@ -2,7 +2,7 @@
 
 Gal Mun-Gral is the Old Chinese pronunciation of my name.
 
-### Stuff I Made for Fun:
+### Stuff I Created for Fun:
 - 📜 An [article](https://galmungral.github.io/sigui/) that explains how GUI works from first principles
 - 🌞 Real-time [recursive ray tracing](https://galmungral.github.io/gl-raytracer/) using fragment shader
 - 🌌 GPU-based PDE solver & visualization: [3D (volume)](https://galmungral.github.io/fdm-3d/), [2D (surface)](https://galmungral.github.io/fdm-2d/)
