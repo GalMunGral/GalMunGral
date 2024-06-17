@@ -7,7 +7,7 @@ Gal Mun-Gral is the [Old Chinese](https://en.wikipedia.org/wiki/Old_Chinese) pro
 
 > *Vidi, scripsi, alio modo vidi.*
 
-### Stuff I Created for Fun:
+### My Creations:
 - 📜 An [article](https://galmungral.github.io/sigui/) that explains how GUI works from first principles
 - 🌞 Real-time [recursive ray tracing](https://galmungral.github.io/gl-raytracer/) in fragment shader
 - 🌌 GPU-based [3D (volume tracing)](https://galmungral.github.io/fdm-3d/) and [2D](https://galmungral.github.io/fdm-2d/) PDE visualizations 
