@@ -1,4 +1,4 @@
-Gal Mun-Gral is the [Old Chinese](https://en.wikipedia.org/wiki/Old_Chinese) pronunciation of my name.
+Gal Mun-Gral is the [Old Chinese](https://en.wikipedia.org/wiki/Old_Chinese) pronunciation of my name
 
 ### My Creations:
 - 📜 An [article](https://galmungral.github.io/sigui/) that explains how GUI works from first principles
