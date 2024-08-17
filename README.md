@@ -5,7 +5,7 @@ Gal Mun-Gral is the [Old Chinese](https://en.wikipedia.org/wiki/Old_Chinese) pro
 - 🌞 Real-time [recursive ray tracing](https://galmungral.github.io/gl-raytracer/) in fragment shader
 - 🌌 GPU-based PDE visualizations: [volume tracing](https://galmungral.github.io/fdm-3d/), [surface](https://galmungral.github.io/fdm-2d/) 
 - 📜 An [article](https://galmungral.github.io/sigui/) that explains how GUI works from first principles
-- 🧬 A Tripos Mol2 [renderer](https://galmungral.github.io/mol-renderer)
+- 🧬 A basic Tripos Mol2 [renderer](https://galmungral.github.io/mol-renderer) built with three.js
 - 🔣 An esoteric [language](https://galmungral.github.io/hanbun-lang/) based on Classical Chinese
 
 ### Favorites/Recent Reads
