@@ -1,7 +1,7 @@
 Gal Mun-Gral is the [Old Chinese](https://en.wikipedia.org/wiki/Old_Chinese) pronunciation of my name
 
 ### My Creations
-- ⛰️ A WebGPU-based [hillshade renderer](https://galmungral.github.io/hillshade/) for DEM rasters
+- ⛰️ A simple WebGPU-based [hillshade renderer](https://galmungral.github.io/hillshade/) for DEM rasters
 - 🌞 Real-time [recursive ray tracing](https://galmungral.github.io/gl-raytracer/) in fragment shader
 - 🌌 GPU-based PDE visualizations: [volume tracing](https://galmungral.github.io/fdm-3d/), [surface](https://galmungral.github.io/fdm-2d/) 
 - 📜 An [article](https://galmungral.github.io/sigui/) that explains how GUI works from first principles
