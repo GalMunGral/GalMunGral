@@ -3,10 +3,10 @@ Gal Mun-Gral is the [Old Chinese](https://en.wikipedia.org/wiki/Old_Chinese) pro
 ### My Visual Creations
 - ⛰️ A simple WebGPU [hillshade renderer](https://galmungral.github.io/hillshade/) for DEM rasters
 - 🌞 Real-time [recursive ray tracing](https://galmungral.github.io/gl-raytracer/) in WebGL fragment shader
-- 🌌 GPU-based PDE visualizations: [3D (fragment shader volume rendering)](https://galmungral.github.io/fdm-3d/), [2D](https://galmungral.github.io/fdm-2d/) 
+- 🌊 GPU-based PDE visualizations: [3D (fragment shader volume rendering)](https://galmungral.github.io/fdm-3d/), [2D](https://galmungral.github.io/fdm-2d/) 
 - 🧬 A basic Tripos Mol2 [renderer](https://galmungral.github.io/mol-renderer) built with three.js
 - 🔣 An esoteric [programming language](https://galmungral.github.io/hanbun-lang/) based on Classical Chinese
-- 📜 An [article](https://galmungral.github.io/sigui/) on the first principles behind user interfaces
+- ✍️ An [article](https://galmungral.github.io/sigui/) on the first principles behind user interfaces
 
 ### My Curated Collection of 2D Graphics Classics
 | Title | Authors  | Year | Link |
