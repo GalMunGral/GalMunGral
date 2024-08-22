@@ -1,6 +1,7 @@
 Gal Mun-Gral is the [Old Chinese](https://en.wikipedia.org/wiki/Old_Chinese) pronunciation of my name
 
 ### My Visual Creations
+- 🧮 GPU [Path rendering](https://galmungral.github.io/newton-vg/) (WebGPU) using numerical root-finding based on Newton's method
 - ⛰️ A simple [hillshade renderer](https://galmungral.github.io/hillshade/) (WebGPU fragment shader) for DEM rasters
 - 🌖 Real-time [recursive ray tracing](https://galmungral.github.io/gl-raytracer/) (WebGL fragment shader)
 - 🌊 PDE visualizations: [volume rendering](https://galmungral.github.io/fdm-3d/) (WebGL fragment shader), [surface](https://galmungral.github.io/fdm-2d/) (three.js)
