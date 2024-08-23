@@ -9,7 +9,7 @@ Gal Mun-Gral is the [Old Chinese](https://en.wikipedia.org/wiki/Old_Chinese) pro
 #### Miscellaneous
 - 🌊 PDE FDM solver (2D) and [visualization](https://galmungral.github.io/fdm-2d/) (three.js)
 - 🧬 A basic Tripos Mol2 [renderer](https://galmungral.github.io/mol-renderer) (three.js)
-- 🔣 An esoteric [programming language](https://galmungral.github.io/hanbun-lang/) based on 文言
+- 🔣 An esoteric [programming language](https://galmungral.github.io/hanbun-lang/) based on [文言](https://en.wikipedia.org/wiki/Classical_Chinese)
 <!-- - 📜 A short [article](https://galmungral.github.io/sigui/) on the first principles behind user interfaces -->
 
 ### My Curated Collection of 2D Graphics Classics
