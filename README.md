@@ -1,10 +1,13 @@
 Gal Mun-Gral is the [Old Chinese](https://en.wikipedia.org/wiki/Old_Chinese) pronunciation of my name
 
 ### My Visual Creations
-- 🧮 GPU [path rendering](https://galmungral.github.io/newton-vg/) (WebGPU fragment shader) using signed distances through numerical root-finding
-- ⛰️ A simple [hillshade renderer](https://galmungral.github.io/hillshade/) (WebGPU fragment shader) for DEM rasters
-- 🌖 Real-time [recursive ray tracing](https://galmungral.github.io/gl-raytracer/) (WebGL fragment shader)
-- 🌊 PDE visualizations: [volume rendering](https://galmungral.github.io/fdm-3d/) (WebGL fragment shader), [surface](https://galmungral.github.io/fdm-2d/) (three.js)
+#### WebGPU/WebGL fragment shaders
+- 🧮 GPU [path rendering](https://galmungral.github.io/newton-vg/) using signed distances through numerical root-finding (WebGPU)
+- ⛰️ A simple [hillshade renderer](https://galmungral.github.io/hillshade/) for DEM rasters (WebGPU)
+- 🌖 Real-time [recursive ray tracing](https://galmungral.github.io/gl-raytracer/) (WebGL)
+- 🌊 PDE FDM solver (3D) and [volume rendering](https://galmungral.github.io/fdm-3d/) (WebGL)
+#### Miscellaneous
+- 🌊 PDE FDM solver (2D) and [visualization](https://galmungral.github.io/fdm-2d/) (three.js)
 - 🧬 A basic Tripos Mol2 [renderer](https://galmungral.github.io/mol-renderer) (three.js)
 - 🔣 An esoteric [programming language](https://galmungral.github.io/hanbun-lang/) based on Classical Chinese
 - 📜 A short [article](https://galmungral.github.io/sigui/) on the first principles behind user interfaces
