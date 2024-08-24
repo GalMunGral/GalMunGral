@@ -3,9 +3,9 @@
 ### ...some of my visual creations:
 #### <img height="24" src="https://www.w3.org/2023/02/webgpu-logos/webgpu-horizontal.svg"/> and <img height="24" src="https://upload.wikimedia.org/wikipedia/commons/2/25/WebGL_Logo.svg"/> shaders
 - 🧮 GPU [path rendering](https://galmungral.github.io/newton-vg/) using signed distances through root-finding 
-- ⛰️ a simple [hillshade renderer](https://galmungral.github.io/hillshade/) for DEM rasters (WebGPU)
-- 🌖 real-time [recursive ray tracing](https://galmungral.github.io/gl-raytracer/) (WebGL)
-- 🌊 PDE FDM solver (3D) and [volume rendering](https://galmungral.github.io/fdm-3d/) (WebGL)
+- ⛰️ a simple [hillshade renderer](https://galmungral.github.io/hillshade/) for DEM rasters
+- 🌖 real-time [recursive ray tracing](https://galmungral.github.io/gl-raytracer/)
+- 🌊 PDE FDM solver (3D) and [volume rendering](https://galmungral.github.io/fdm-3d/)
 #### Miscellaneous
 - 🔣 an esoteric [programming language](https://galmungral.github.io/hanbun-lang/) based on [文言](https://en.wikipedia.org/wiki/Classical_Chinese)
 - 🌊 PDE FDM solver (2D) and [visualization](https://galmungral.github.io/fdm-2d/) (three.js)
