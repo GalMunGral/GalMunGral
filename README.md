@@ -1,7 +1,7 @@
 "Gal Mun-Gral" is the [Old Chinese](https://en.wikipedia.org/wiki/Reconstructions_of_Old_Chinese) pronunciation of my name
 
 ### ...some of my visual creations:
-#### <img height="24" src="https://www.w3.org/2023/02/webgpu-logos/webgpu-horizontal.svg"/> and <img height="24" src="https://upload.wikimedia.org/wikipedia/commons/2/25/WebGL_Logo.svg"/> shaders
+#### <picture><source height="24" media="(prefers-color-scheme: dark)" srcset="https://www.w3.org/2023/02/webgpu-logos/webgpu-horizontal-responsive.svg"><source height="24" media="(prefers-color-scheme: light)" srcset="https://www.w3.org/2023/02/webgpu-logos/webgpu-horizontal.svg"><img alt="WebGPU"></picture> and <img height="24" src="https://upload.wikimedia.org/wikipedia/commons/2/25/WebGL_Logo.svg"> shaders
 - 🧮 GPU [path rendering](https://galmungral.github.io/newton-vg/) using signed distances through root-finding 
 - ⛰️ a simple [hillshade renderer](https://galmungral.github.io/hillshade/) for DEM rasters
 - 🌖 real-time [recursive ray tracing](https://galmungral.github.io/gl-raytracer/)
