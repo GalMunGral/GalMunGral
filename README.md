@@ -2,7 +2,7 @@
 
 ### ...some of my visual creations:
 #### <picture><source height="24" media="(prefers-color-scheme: dark)" srcset="https://www.w3.org/2023/02/webgpu-logos/webgpu-horizontal-responsive.svg"><source height="24" media="(prefers-color-scheme: light)" srcset="https://www.w3.org/2023/02/webgpu-logos/webgpu-horizontal.svg"><img alt="WebGPU"></picture> and <img height="24" src="https://upload.wikimedia.org/wikipedia/commons/2/25/WebGL_Logo.svg"> shaders
-- 🧮 GPU [path rendering](https://galmungral.github.io/newton-vg/) using signed distances through root-finding 
+- 🧮 GPU [path rendering](https://galmungral.github.io/newton-vg/) based on signed distances
 - ⛰️ a simple [hillshade renderer](https://galmungral.github.io/hillshade/) for DEM rasters
 - 🌖 real-time [recursive ray tracing](https://galmungral.github.io/gl-raytracer/)
 - 🌊 PDE FDM solver (3D) and [volume rendering](https://galmungral.github.io/fdm-3d/)
