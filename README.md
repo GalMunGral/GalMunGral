@@ -2,15 +2,14 @@
 
 ### Some of my visual creations:
 #### <picture><source height="24" media="(prefers-color-scheme: dark)" srcset="https://www.w3.org/2023/02/webgpu-logos/webgpu-horizontal-responsive.svg"><source height="24" media="(prefers-color-scheme: light)" srcset="https://www.w3.org/2023/02/webgpu-logos/webgpu-horizontal.svg"><img alt="WebGPU"></picture> and <img height="24" src="https://upload.wikimedia.org/wikipedia/commons/2/25/WebGL_Logo.svg"> fragment shader experiments
-- 🧮 [GPU path rendering based on root finding](https://galmungral.github.io/newton-vg/)
-- ⛰️ [A simple DEM hillshade renderer](https://galmungral.github.io/hillshade/)
-- 🌖 [Real-time GPU recursive ray tracing](https://galmungral.github.io/gl-raytracer/)
-- 🌊 [Real-time FDM solver and volume ray casting](https://galmungral.github.io/fdm-3d/)
+- [GPU path rendering based on root finding](https://galmungral.github.io/newton-vg/)
+- [A simple DEM hillshade renderer](https://galmungral.github.io/hillshade/)
+- [Real-time GPU recursive ray tracing](https://galmungral.github.io/gl-raytracer/)
+- [Real-time FDM solver and volume ray casting](https://galmungral.github.io/fdm-3d/)
 #### Miscellaneous
-- 🔣 [An esoteric programming language based on Classical Chinese](https://galmungral.github.io/hanbun-lang/)
-- 🌊 [2D FDM solver visualization (three.js)](https://galmungral.github.io/fdm-2d/) 
-- 🧬 [A basic Tripos Mol2 renderer (three.js)](https://galmungral.github.io/mol-renderer)
-<!-- - 📜 a short [article](https://galmungral.github.io/sigui/) on the first principles behind user interfaces -->
+- [An esoteric programming language based on Classical Chinese](https://galmungral.github.io/hanbun-lang/)
+- [2D FDM solver visualization (three.js)](https://galmungral.github.io/fdm-2d/) 
+- [A basic Tripos Mol2 renderer (three.js)](https://galmungral.github.io/mol-renderer)
 
 ### A curated reading list for 2D graphics:
 | Title | Authors  | Year | Link |
