@@ -1,18 +1,18 @@
 "Gal Mun-Gral" is the [Old Chinese](https://en.wikipedia.org/wiki/Reconstructions_of_Old_Chinese) pronunciation of my name
 
-### ...some of my visual creations:
+### Some of my visual creations:
 #### <picture><source height="24" media="(prefers-color-scheme: dark)" srcset="https://www.w3.org/2023/02/webgpu-logos/webgpu-horizontal-responsive.svg"><source height="24" media="(prefers-color-scheme: light)" srcset="https://www.w3.org/2023/02/webgpu-logos/webgpu-horizontal.svg"><img alt="WebGPU"></picture> and <img height="24" src="https://upload.wikimedia.org/wikipedia/commons/2/25/WebGL_Logo.svg"> fragment shader experiments
-- 🧮 GPU [path rendering](https://galmungral.github.io/newton-vg/) based on signed distances
-- ⛰️ a simple [hillshade renderer](https://galmungral.github.io/hillshade/) for DEM rasters
-- 🌖 real-time [recursive ray tracing](https://galmungral.github.io/gl-raytracer/)
-- 🌊 PDE FDM solver (3D) and [volume rendering](https://galmungral.github.io/fdm-3d/)
+- 🧮 [GPU path rendering based on root finding](https://galmungral.github.io/newton-vg/)
+- ⛰️ [A simple DEM hillshade renderer](https://galmungral.github.io/hillshade/)
+- 🌖 [Real-time GPU recursive ray tracing](https://galmungral.github.io/gl-raytracer/)
+- 🌊 [Real-time FDM solver and volume ray casting](https://galmungral.github.io/fdm-3d/)
 #### Miscellaneous
-- 🔣 an esoteric [programming language](https://galmungral.github.io/hanbun-lang/) based on [文言](https://en.wikipedia.org/wiki/Classical_Chinese)
-- 🌊 PDE FDM solver (2D) and [visualization](https://galmungral.github.io/fdm-2d/) (three.js)
-- 🧬 a basic Tripos Mol2 [renderer](https://galmungral.github.io/mol-renderer) (three.js)
+- 🔣 [An esoteric programming language based on Classical Chinese](https://galmungral.github.io/hanbun-lang/)
+- 🌊 [2D FDM solver visualization (three.js)](https://galmungral.github.io/fdm-2d/) 
+- 🧬 [A basic Tripos Mol2 renderer (three.js)](https://galmungral.github.io/mol-renderer)
 <!-- - 📜 a short [article](https://galmungral.github.io/sigui/) on the first principles behind user interfaces -->
 
-### ...and a curated reading list for 2D graphics:
+### A curated reading list for 2D graphics:
 | Title | Authors  | Year | Link |
 |-------|---------|------|------|
 | High-Performance Polynomial Root Finding for Graphics | Cem Yuksel | 2022 | https://doi.org/10.1145/3543865 |
