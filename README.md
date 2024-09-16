@@ -4,6 +4,7 @@
 #### Fragment shader experiments
 <picture><source height="32" media="(prefers-color-scheme: dark)" srcset="https://www.w3.org/2023/02/webgpu-logos/webgpu-horizontal-responsive.svg"><source height="32" media="(prefers-color-scheme: light)" srcset="https://www.w3.org/2023/02/webgpu-logos/webgpu-horizontal.svg"><img alt="WebGPU"></picture><img height="32" src="https://upload.wikimedia.org/wikipedia/commons/2/25/WebGL_Logo.svg"> 
 - [GPU path rendering based on root finding](https://galmungral.github.io/newton-vg/)
+- [A simple ray-traced illustration of the Mercator projection](https://galmungral.github.io/mercator-3d/)
 - [A simple DEM hillshade renderer](https://galmungral.github.io/hillshade/)
 - [Real-time GPU recursive ray tracing](https://galmungral.github.io/gl-raytracer/)
 - [Real-time FDM solver and volume ray casting](https://galmungral.github.io/fdm-3d/)
