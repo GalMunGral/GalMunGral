@@ -1,6 +1,5 @@
 "Gal Mun-Gral" is the [Old Chinese](https://en.wikipedia.org/wiki/Reconstructions_of_Old_Chinese) pronunciation of my name
 
-### Some of my visual creations:
 #### Foray into vision
 - [Reconstruction of DEM from hillshade using the Frankot-Chellappa algorithm](https://galmungral.github.io/dem-reconstruction/)
 
