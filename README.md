@@ -1,6 +1,9 @@
 "Gal Mun-Gral" is the [Old Chinese](https://en.wikipedia.org/wiki/Reconstructions_of_Old_Chinese) pronunciation of my name
 
 ### Some of my visual creations:
+#### Foray into vision
+- [Reconstruction of DEM from hillshade using the Frankot-Chellappa algorithm](https://galmungral.github.io/dem-reconstruction/)
+
 #### Fragment shader experiments
 <picture><source height="32" media="(prefers-color-scheme: dark)" srcset="https://www.w3.org/2023/02/webgpu-logos/webgpu-horizontal-responsive.svg"><source height="32" media="(prefers-color-scheme: light)" srcset="https://www.w3.org/2023/02/webgpu-logos/webgpu-horizontal.svg"><img alt="WebGPU"></picture><img height="32" src="https://upload.wikimedia.org/wikipedia/commons/2/25/WebGL_Logo.svg"> 
 - [GPU path rendering based on root finding](https://galmungral.github.io/newton-vg/)
