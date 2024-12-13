@@ -8,9 +8,9 @@
 
 ### WebGL/WebGPU Shader Experiments
 - [A simple ray-traced illustration of the Mercator projection](https://galmungral.github.io/mercator-3d/)
-- [A simple DEM hillshade renderer](https://galmungral.github.io/hillshade/)
 - [Real-time GPU recursive ray tracing](https://galmungral.github.io/gl-raytracer/)
 - [Real-time FDM solver and volume ray casting](https://galmungral.github.io/fdm-3d/)
+- [A simple DEM hillshade renderer](https://galmungral.github.io/hillshade/)
 
 ### Miscellaneous
 - [An esoteric programming language based on Classical Chinese](https://galmungral.github.io/hanbun-lang/)
