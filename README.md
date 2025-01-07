@@ -4,7 +4,7 @@
 - [Reconstruction of DEM from hillshade using the Frankot-Chellappa algorithm](https://galmungral.github.io/dem-reconstruction/)
 - [GPU path rendering based on root finding](https://galmungral.github.io/newton-vg/)
 - [A simple ray-traced illustration of the Mercator projection](https://galmungral.github.io/mercator-3d/)
-- [Real-time FDM solver and volume ray casting](https://galmungral.github.io/fdm-3d/)
+- [Volume rendering of real-time FDM solution of 3D wave equation](https://galmungral.github.io/fdm-3d/)
 - [Real-time FVM solution of 2D Navier–Stokes equations](https://galmungral.github.io/FVM-CFD/)
 - [A simple DEM hillshade renderer](https://galmungral.github.io/hillshade/)
 - [Real-time GPU recursive ray tracing](https://galmungral.github.io/gl-raytracer/)
